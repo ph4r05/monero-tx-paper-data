@@ -1,0 +1,20 @@
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out02-ring12.txt
+OK in 12.61 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out02-ring24.txt
+OK in 9.99 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out02-ring48.txt
+OK in 24.84 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in16-out02-ring12.txt
+OK in 32.11 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in32-out02-ring12.txt
+OK in 60.51 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in64-out02-ring12.txt
+OK in 109.08 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in128-out02-ring12.txt
+OK in 214.18 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out16-ring12.txt
+OK in 25.10 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in16-out16-ring12.txt
+OK in 45.90 s
+Test test_transactions_bp_c1_hf10 took 562.48 s
+

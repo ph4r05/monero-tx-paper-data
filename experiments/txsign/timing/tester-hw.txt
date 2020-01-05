@@ -1,0 +1,23 @@
+2020-01-05 16:18:30 phx.local trezorlib.transport[23019] INFO looking for device by full path: webusb:020:1
+2020-01-05 16:18:30 phx.local trezorlib.client[23019] INFO creating client instance for device: webusb:020:1
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out02-ring12.txt
+OK in 22.69 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out02-ring24.txt
+OK in 26.13 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out02-ring48.txt
+OK in 34.56 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in16-out02-ring12.txt
+OK in 85.91 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in32-out02-ring12.txt
+OK in 160.73 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in64-out02-ring12.txt
+OK in 309.13 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in128-out02-ring12.txt
+OK in 608.07 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in02-out16-ring12.txt
+OK in 52.07 s
+Testing[bp=True,cl=1,hf=10]: tsx_t_uns_xx_in16-out16-ring12.txt
+OK in 122.20 s
+Test test_transactions_bp_c1_hf10 took 1425.04 s
+
+
