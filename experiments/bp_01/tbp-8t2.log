@@ -1,0 +1,1791 @@
+500335000 trezor.wire DEBUG 0:0 receive: <class 'Initialize'>
+500347000 trezor.workflow DEBUG start: <generator object 'handle_Initialize' at 20015f30>
+500371000 trezor.workflow DEBUG close: <generator object 'handle_Initialize' at 20015f30>
+500388000 trezor.workflow DEBUG default already started
+500397000 trezor.wire DEBUG 0:0 write: <Features>
+500515000 trezor.wire DEBUG 0:0 receive: <class 'WipeDevice'>
+500536000 trezor.workflow DEBUG start: <generator object 'wipe_device' at 20008cb0>
+500546000 trezor.wire DEBUG 0:0 write: <ButtonRequest>
+500575000 trezor.wire DEBUG 0:0 expect: <class 'ButtonAck'>
+500597000 trezor.wire DEBUG 0:0 read: <class 'ButtonAck'>
+500631000 trezor.wire DEBUG 1:0 receive: <class 'DebugLinkDecision'>
+500649000 trezor.workflow DEBUG start: <generator object 'dispatch_DebugLinkDecision' at 200151f0>
+500658000 trezor.workflow DEBUG close: <generator object 'dispatch_DebugLinkDecision' at 200151f0>
+500699000 trezor.wire DEBUG 0:0 expect: ()
+500764000 trezor.loop DEBUG ui.Cancelled
+500776000 trezor.loop DEBUG finish: <generator object 'take' at 20011350>
+500790000 trezor.loop DEBUG ui.Cancelled
+500798000 trezor.workflow DEBUG default closed: <generator object 'homescreen' at 20014e30>
+500808000 trezor.loop DEBUG finish: <generator object '__iter__' at 20011e20>
+503350000 trezor.workflow DEBUG close: <generator object 'wipe_device' at 20008cb0>
+503359000 trezor.workflow DEBUG start default: <generator object 'homescreen' at 2000fc70>
+503829000 trezor.wire DEBUG 0:0 write: <Success>
+503881000 trezor.wire DEBUG 0:0 receive: <class 'Initialize'>
+503894000 trezor.workflow DEBUG start: <generator object 'handle_Initialize' at 20007890>
+503916000 trezor.workflow DEBUG close: <generator object 'handle_Initialize' at 20007890>
+503927000 trezor.workflow DEBUG default already started
+503937000 trezor.wire DEBUG 0:0 write: <Features>
+504070000 trezor.wire DEBUG 0:0 receive: <class 'LoadDevice'>
+504144000 trezor.workflow DEBUG start: <generator object 'load_device' at 20015b20>
+504199000 trezor.wire DEBUG 0:0 write: <ButtonRequest>
+504232000 trezor.wire DEBUG 0:0 expect: <class 'ButtonAck'>
+504254000 trezor.wire DEBUG 0:0 read: <class 'ButtonAck'>
+504285000 trezor.wire DEBUG 1:0 receive: <class 'DebugLinkDecision'>
+504301000 trezor.workflow DEBUG start: <generator object 'dispatch_DebugLinkDecision' at 20017260>
+504312000 trezor.workflow DEBUG close: <generator object 'dispatch_DebugLinkDecision' at 20017260>
+504357000 trezor.wire DEBUG 0:0 expect: ()
+504421000 trezor.loop DEBUG ui.Cancelled
+504434000 trezor.loop DEBUG finish: <generator object 'take' at 200168e0>
+504448000 trezor.loop DEBUG ui.Cancelled
+504455000 trezor.workflow DEBUG default closed: <generator object 'homescreen' at 2000fc70>
+504465000 trezor.loop DEBUG finish: <generator object '__iter__' at 20016ac0>
+504498000 trezor.workflow DEBUG close: <generator object 'load_device' at 20015b20>
+504508000 trezor.workflow DEBUG start default: <generator object 'homescreen' at 2000d430>
+504975000 trezor.wire DEBUG 0:0 write: <Success>
+505039000 trezor.wire DEBUG 0:0 receive: <class 'Initialize'>
+505053000 trezor.workflow DEBUG start: <generator object 'handle_Initialize' at 20007890>
+505083000 trezor.workflow DEBUG close: <generator object 'handle_Initialize' at 20007890>
+505092000 trezor.workflow DEBUG default already started
+505102000 trezor.wire DEBUG 0:0 write: <Features>
+505318000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+505363000 trezor.workflow DEBUG start: <generator object 'diag' at 200151f0>
+505373000 apps.monero.diag DEBUG ----diagnostics
+505416000 apps.monero.diag DEBUG ======= 0  Diff: -1712 Free: 100944 Allocated: 62128
+stack: 1464 out of 15360
+GC: total: 163072, used: 62688, free: 100384
+No. of 1-blocks: 1393, 2-blocks: 128, max blk sz: 112, max free sz: 5334
+505536000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13552 Free: 87392 Allocated: 75680
+stack: 1464 out of 15360
+GC: total: 163072, used: 76304, free: 86768
+No. of 1-blocks: 1619, 2-blocks: 223, max blk sz: 112, max free sz: 5261
+505588000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 87392 Allocated: 75680
+stack: 1464 out of 15360
+GC: total: 163072, used: 76272, free: 86800
+No. of 1-blocks: 1617, 2-blocks: 223, max blk sz: 112, max free sz: 5261
+505649000 apps.monero.diag DEBUG ======= 3 +++BP START: 0; 8 Diff: 64 Free: 87328 Allocated: 75744
+stack: 1464 out of 15360
+GC: total: 163072, used: 76400, free: 86672
+No. of 1-blocks: 1620, 2-blocks: 225, max blk sz: 112, max free sz: 5261
+505703000 apps.monero.diag DEBUG Log trace BP START, ... F: 87456 A: 75616, S: 1480
+516053000 apps.monero.diag DEBUG Log trace 11, ... F: 82784 A: 80288, S: 2160
+528775000 apps.monero.diag DEBUG Log trace 12, ... F: 82016 A: 81056, S: 2160
+528807000 apps.monero.diag DEBUG Log trace 13, ... F: 81504 A: 81568, S: 2336
+528838000 apps.monero.diag DEBUG Log trace 14, ... F: 80736 A: 82336, S: 2160
+530565000 apps.monero.diag DEBUG Log trace 16, ... F: 80208 A: 82864, S: 2160
+530598000 apps.monero.diag DEBUG Log trace 17, ... F: 80544 A: 82528, S: 2160
+Phase1_lr, state: 0, off: 0, MN: 512
+530634000 apps.monero.diag DEBUG Log trace 2, ... F: 81184 A: 81888, S: 2336
+530674000 apps.monero.diag DEBUG Log trace 3, ... F: 80160 A: 82912, S: 2336
+530714000 apps.monero.diag DEBUG Log trace 4, ... F: 78976 A: 84096, S: 2336
+530746000 apps.monero.diag DEBUG Log trace 13, ... F: 77600 A: 85472, S: 2512
+530777000 apps.monero.diag DEBUG Log trace 14, ... F: 76864 A: 86208, S: 2336
+530960000 apps.monero.diag DEBUG Log trace 5, ... F: 76944 A: 86128, S: 2336
+530990000 apps.monero.diag DEBUG Log trace 6, ... F: 77328 A: 85744, S: 2336
+531019000 apps.monero.diag DEBUG Log trace 1, ... F: 77760 A: 85312, S: 1984
+531057000 apps.monero.diag DEBUG Log trace 1, ... F: 78672 A: 84400, S: 1984
+531096000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 80976 A: 82096, S: 1480
+531125000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 80976 A: 82096, S: 1480
+531160000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 6432 Free: 80896 Allocated: 82176
+stack: 1464 out of 15360
+GC: total: 163072, used: 82752, free: 80320
+No. of 1-blocks: 1667, 2-blocks: 247, max blk sz: 112, max free sz: 4775
+531190000 trezor.workflow DEBUG close: <generator object 'diag' at 200151f0>
+531200000 trezor.workflow DEBUG default already started
+531210000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+531674000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+531712000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+531723000 apps.monero.diag DEBUG ----diagnostics
+531766000 apps.monero.diag DEBUG ======= 0  Diff: -4768 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4775
+531881000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4775
+531935000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4775
+531991000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4775
+532042000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+532116000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 32, MN: 512
+532138000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+532178000 apps.monero.diag DEBUG Log trace 3, ... F: 81200 A: 81872, S: 2224
+532218000 apps.monero.diag DEBUG Log trace 4, ... F: 80016 A: 83056, S: 2224
+532251000 apps.monero.diag DEBUG Log trace 13, ... F: 78640 A: 84432, S: 2400
+532284000 apps.monero.diag DEBUG Log trace 14, ... F: 77904 A: 85168, S: 2224
+532464000 apps.monero.diag DEBUG Log trace 5, ... F: 78432 A: 84640, S: 2224
+532493000 apps.monero.diag DEBUG Log trace 6, ... F: 78960 A: 84112, S: 2224
+532522000 apps.monero.diag DEBUG Log trace 1, ... F: 79152 A: 83920, S: 1984
+532561000 apps.monero.diag DEBUG Log trace 1, ... F: 79536 A: 83536, S: 1984
+532599000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+532628000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+532664000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4647
+532694000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+532704000 trezor.workflow DEBUG default already started
+532715000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+533179000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+533223000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+533237000 apps.monero.diag DEBUG ----diagnostics
+533281000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+533394000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+533447000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+533503000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+533551000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+533625000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 64, MN: 512
+533647000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+533687000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+533727000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+533760000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+533793000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+533972000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+534002000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+534032000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+534070000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+534109000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+534138000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+534174000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4680
+534203000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+534213000 trezor.workflow DEBUG default already started
+534224000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+534685000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+534723000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+534732000 apps.monero.diag DEBUG ----diagnostics
+534776000 apps.monero.diag DEBUG ======= 0  Diff: -3968 Free: 97248 Allocated: 65824
+stack: 1464 out of 15360
+GC: total: 163072, used: 66384, free: 96688
+No. of 1-blocks: 1438, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+534888000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83856 Allocated: 79216
+stack: 1464 out of 15360
+GC: total: 163072, used: 79840, free: 83232
+No. of 1-blocks: 1664, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+534947000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83856 Allocated: 79216
+stack: 1464 out of 15360
+GC: total: 163072, used: 79808, free: 83264
+No. of 1-blocks: 1662, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+535005000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79936, free: 83136
+No. of 1-blocks: 1665, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+535057000 apps.monero.diag DEBUG Log trace BP START, ... F: 83920 A: 79152, S: 1480
+535131000 apps.monero.diag DEBUG Log trace From state, ... F: 82704 A: 80368, S: 1480
+Phase1_lr, state: 0, off: 96, MN: 512
+535152000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+535193000 apps.monero.diag DEBUG Log trace 3, ... F: 81360 A: 81712, S: 2224
+535233000 apps.monero.diag DEBUG Log trace 4, ... F: 80176 A: 82896, S: 2224
+535270000 apps.monero.diag DEBUG Log trace 13, ... F: 78800 A: 84272, S: 2400
+535305000 apps.monero.diag DEBUG Log trace 14, ... F: 78064 A: 85008, S: 2224
+535485000 apps.monero.diag DEBUG Log trace 5, ... F: 78592 A: 84480, S: 2224
+535514000 apps.monero.diag DEBUG Log trace 6, ... F: 79120 A: 83952, S: 2224
+535545000 apps.monero.diag DEBUG Log trace 1, ... F: 79312 A: 83760, S: 1984
+535583000 apps.monero.diag DEBUG Log trace 1, ... F: 79536 A: 83536, S: 1984
+535627000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81616 A: 81456, S: 1480
+535655000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81840 A: 81232, S: 1480
+535696000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81760 Allocated: 81312
+stack: 1464 out of 15360
+GC: total: 163072, used: 81888, free: 81184
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4744
+535725000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+535735000 trezor.workflow DEBUG default already started
+535746000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+536203000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+536241000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+536251000 apps.monero.diag DEBUG ----diagnostics
+536299000 apps.monero.diag DEBUG ======= 0  Diff: -3968 Free: 97248 Allocated: 65824
+stack: 1464 out of 15360
+GC: total: 163072, used: 66384, free: 96688
+No. of 1-blocks: 1438, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+536412000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83856 Allocated: 79216
+stack: 1464 out of 15360
+GC: total: 163072, used: 79840, free: 83232
+No. of 1-blocks: 1664, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+536473000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83856 Allocated: 79216
+stack: 1464 out of 15360
+GC: total: 163072, used: 79808, free: 83264
+No. of 1-blocks: 1662, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+536529000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79936, free: 83136
+No. of 1-blocks: 1665, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+536576000 apps.monero.diag DEBUG Log trace BP START, ... F: 83920 A: 79152, S: 1480
+536650000 apps.monero.diag DEBUG Log trace From state, ... F: 82704 A: 80368, S: 1480
+Phase1_lr, state: 0, off: 128, MN: 512
+536673000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+536713000 apps.monero.diag DEBUG Log trace 3, ... F: 81264 A: 81808, S: 2224
+536753000 apps.monero.diag DEBUG Log trace 4, ... F: 80080 A: 82992, S: 2224
+536786000 apps.monero.diag DEBUG Log trace 13, ... F: 78704 A: 84368, S: 2400
+536827000 apps.monero.diag DEBUG Log trace 14, ... F: 77968 A: 85104, S: 2224
+537008000 apps.monero.diag DEBUG Log trace 5, ... F: 78496 A: 84576, S: 2224
+537037000 apps.monero.diag DEBUG Log trace 6, ... F: 79024 A: 84048, S: 2224
+537067000 apps.monero.diag DEBUG Log trace 1, ... F: 79216 A: 83856, S: 1984
+537105000 apps.monero.diag DEBUG Log trace 1, ... F: 79600 A: 83472, S: 1984
+537144000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81616 A: 81456, S: 1480
+537173000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81840 A: 81232, S: 1480
+537208000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81760 Allocated: 81312
+stack: 1464 out of 15360
+GC: total: 163072, used: 81888, free: 81184
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4680
+537237000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+537247000 trezor.workflow DEBUG default already started
+537258000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+537721000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+537760000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+537769000 apps.monero.diag DEBUG ----diagnostics
+537813000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+537926000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+537979000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+538035000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+538085000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+538164000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 160, MN: 512
+538185000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+538225000 apps.monero.diag DEBUG Log trace 3, ... F: 81248 A: 81824, S: 2224
+538265000 apps.monero.diag DEBUG Log trace 4, ... F: 80064 A: 83008, S: 2224
+538301000 apps.monero.diag DEBUG Log trace 13, ... F: 78688 A: 84384, S: 2400
+538334000 apps.monero.diag DEBUG Log trace 14, ... F: 77952 A: 85120, S: 2224
+538514000 apps.monero.diag DEBUG Log trace 5, ... F: 78480 A: 84592, S: 2224
+538549000 apps.monero.diag DEBUG Log trace 6, ... F: 79008 A: 84064, S: 2224
+538578000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+538617000 apps.monero.diag DEBUG Log trace 1, ... F: 79536 A: 83536, S: 1984
+538656000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+538685000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+538721000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+538750000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+538760000 trezor.workflow DEBUG default already started
+538771000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+539239000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+539278000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+539287000 apps.monero.diag DEBUG ----diagnostics
+539331000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+539444000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+539497000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+539553000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+539605000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+539679000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 192, MN: 512
+539701000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+539741000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+539781000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+539814000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+539847000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+540027000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+540056000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+540086000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+540124000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+540163000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+540192000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+540227000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+540257000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+540267000 trezor.workflow DEBUG default already started
+540278000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+540745000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+540784000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+540793000 apps.monero.diag DEBUG ----diagnostics
+540837000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+540954000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+541007000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+541075000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+541127000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+541201000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 224, MN: 512
+541229000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+541269000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+541315000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+541348000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+541381000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+541562000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+541591000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+541621000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+541659000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+541698000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+541727000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+541762000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+541804000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+541819000 trezor.workflow DEBUG default already started
+541830000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+542289000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+542332000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+542341000 apps.monero.diag DEBUG ----diagnostics
+542385000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+542500000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+542554000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+542614000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+542665000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+542739000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 256, MN: 512
+542761000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+542801000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+542841000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+542874000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+542907000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+543087000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+543118000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+543147000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+543185000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+543224000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+543253000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+543289000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+543318000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+543328000 trezor.workflow DEBUG default already started
+543339000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+543807000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+543846000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+543855000 apps.monero.diag DEBUG ----diagnostics
+543899000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+544016000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+544070000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+544128000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+544177000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+544251000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 288, MN: 512
+544273000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+544313000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+544353000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+544385000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+544419000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+544598000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+544628000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+544657000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+544695000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+544734000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+544763000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+544799000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+544828000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+544838000 trezor.workflow DEBUG default already started
+544849000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+545312000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+545351000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+545365000 apps.monero.diag DEBUG ----diagnostics
+545408000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+545520000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+545574000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+545631000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+545678000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+545752000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 320, MN: 512
+545774000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+545814000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+545854000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+545887000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+545924000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+546105000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+546134000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+546164000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+546207000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+546245000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+546274000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+546310000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+546339000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+546349000 trezor.workflow DEBUG default already started
+546360000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+546818000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+546856000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+546866000 apps.monero.diag DEBUG ----diagnostics
+546909000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+547025000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+547078000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+547135000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+547183000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+547258000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 352, MN: 512
+547280000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+547320000 apps.monero.diag DEBUG Log trace 3, ... F: 81200 A: 81872, S: 2224
+547360000 apps.monero.diag DEBUG Log trace 4, ... F: 80016 A: 83056, S: 2224
+547393000 apps.monero.diag DEBUG Log trace 13, ... F: 78640 A: 84432, S: 2400
+547426000 apps.monero.diag DEBUG Log trace 14, ... F: 77904 A: 85168, S: 2224
+547606000 apps.monero.diag DEBUG Log trace 5, ... F: 78432 A: 84640, S: 2224
+547637000 apps.monero.diag DEBUG Log trace 6, ... F: 78960 A: 84112, S: 2224
+547666000 apps.monero.diag DEBUG Log trace 1, ... F: 79152 A: 83920, S: 1984
+547704000 apps.monero.diag DEBUG Log trace 1, ... F: 79536 A: 83536, S: 1984
+547743000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+547772000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+547808000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+547836000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+547846000 trezor.workflow DEBUG default already started
+547857000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+548323000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+548362000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+548371000 apps.monero.diag DEBUG ----diagnostics
+548415000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+548527000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+548585000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+548651000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+548697000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+548772000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 384, MN: 512
+548797000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+548837000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+548877000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+548911000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+548944000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+549124000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+549153000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+549182000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+549220000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+549259000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+549288000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+549324000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+549354000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+549364000 trezor.workflow DEBUG default already started
+549375000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+549842000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+549880000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+549894000 apps.monero.diag DEBUG ----diagnostics
+549937000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+550049000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+550103000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+550159000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+550207000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+550286000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 416, MN: 512
+550307000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+550347000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+550387000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+550420000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+550453000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+550632000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+550662000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+550691000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+550732000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+550771000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+550800000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+550836000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+550870000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+550880000 trezor.workflow DEBUG default already started
+550891000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+551347000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+551386000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+551395000 apps.monero.diag DEBUG ----diagnostics
+551438000 apps.monero.diag DEBUG ======= 0  Diff: -3904 Free: 97184 Allocated: 65888
+stack: 1464 out of 15360
+GC: total: 163072, used: 66448, free: 96624
+No. of 1-blocks: 1439, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+551553000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79904, free: 83168
+No. of 1-blocks: 1665, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+551608000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79872, free: 83200
+No. of 1-blocks: 1663, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+551664000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83728 Allocated: 79344
+stack: 1464 out of 15360
+GC: total: 163072, used: 80000, free: 83072
+No. of 1-blocks: 1666, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+551710000 apps.monero.diag DEBUG Log trace BP START, ... F: 83856 A: 79216, S: 1480
+551785000 apps.monero.diag DEBUG Log trace From state, ... F: 82640 A: 80432, S: 1480
+Phase1_lr, state: 0, off: 448, MN: 512
+551806000 apps.monero.diag DEBUG Log trace 2, ... F: 81936 A: 81136, S: 2224
+551846000 apps.monero.diag DEBUG Log trace 3, ... F: 81296 A: 81776, S: 2224
+551886000 apps.monero.diag DEBUG Log trace 4, ... F: 80112 A: 82960, S: 2224
+551922000 apps.monero.diag DEBUG Log trace 13, ... F: 78736 A: 84336, S: 2400
+551955000 apps.monero.diag DEBUG Log trace 14, ... F: 78000 A: 85072, S: 2224
+552135000 apps.monero.diag DEBUG Log trace 5, ... F: 78528 A: 84544, S: 2224
+552164000 apps.monero.diag DEBUG Log trace 6, ... F: 79056 A: 84016, S: 2224
+552195000 apps.monero.diag DEBUG Log trace 1, ... F: 79200 A: 83872, S: 1984
+552233000 apps.monero.diag DEBUG Log trace 1, ... F: 79472 A: 83600, S: 1984
+552272000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81552 A: 81520, S: 1480
+552300000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81776 A: 81296, S: 1480
+552338000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 2032 Free: 81696 Allocated: 81376
+stack: 1464 out of 15360
+GC: total: 163072, used: 81952, free: 81120
+No. of 1-blocks: 1666, 2-blocks: 245, max blk sz: 112, max free sz: 4707
+552367000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+552377000 trezor.workflow DEBUG default already started
+552388000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+552853000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+552891000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+552902000 apps.monero.diag DEBUG ----diagnostics
+552945000 apps.monero.diag DEBUG ======= 0  Diff: -3968 Free: 97248 Allocated: 65824
+stack: 1464 out of 15360
+GC: total: 163072, used: 66384, free: 96688
+No. of 1-blocks: 1438, 2-blocks: 150, max blk sz: 112, max free sz: 4808
+553058000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 83856 Allocated: 79216
+stack: 1464 out of 15360
+GC: total: 163072, used: 79840, free: 83232
+No. of 1-blocks: 1664, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+553111000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 83856 Allocated: 79216
+stack: 1464 out of 15360
+GC: total: 163072, used: 79808, free: 83264
+No. of 1-blocks: 1662, 2-blocks: 245, max blk sz: 112, max free sz: 4808
+553167000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 83792 Allocated: 79280
+stack: 1464 out of 15360
+GC: total: 163072, used: 79936, free: 83136
+No. of 1-blocks: 1665, 2-blocks: 247, max blk sz: 112, max free sz: 4808
+553223000 apps.monero.diag DEBUG Log trace BP START, ... F: 83920 A: 79152, S: 1480
+553297000 apps.monero.diag DEBUG Log trace From state, ... F: 82704 A: 80368, S: 1480
+Phase1_lr, state: 0, off: 480, MN: 512
+553319000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+553359000 apps.monero.diag DEBUG Log trace 3, ... F: 81360 A: 81712, S: 2224
+553399000 apps.monero.diag DEBUG Log trace 4, ... F: 80176 A: 82896, S: 2224
+553438000 apps.monero.diag DEBUG Log trace 13, ... F: 78800 A: 84272, S: 2400
+553471000 apps.monero.diag DEBUG Log trace 14, ... F: 78064 A: 85008, S: 2224
+553651000 apps.monero.diag DEBUG Log trace 5, ... F: 78592 A: 84480, S: 2224
+Moving to next state
+553681000 apps.monero.diag DEBUG Log trace 6, ... F: 79200 A: 83872, S: 2224
+553710000 apps.monero.diag DEBUG Log trace 1, ... F: 80624 A: 82448, S: 1984
+553756000 apps.monero.diag DEBUG Log trace 1, ... F: 80064 A: 83008, S: 1984
+553794000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 82192 A: 80880, S: 1480
+553823000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 82416 A: 80656, S: 1480
+553859000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 1456 Free: 82336 Allocated: 80736
+stack: 1464 out of 15360
+GC: total: 163072, used: 81312, free: 81760
+No. of 1-blocks: 1663, 2-blocks: 239, max blk sz: 112, max free sz: 4680
+553888000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+553898000 trezor.workflow DEBUG default already started
+553909000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+554371000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+554409000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+554418000 apps.monero.diag DEBUG ----diagnostics
+554462000 apps.monero.diag DEBUG ======= 0  Diff: -3968 Free: 97824 Allocated: 65248
+stack: 1464 out of 15360
+GC: total: 163072, used: 65808, free: 97264
+No. of 1-blocks: 1436, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+554573000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84432 Allocated: 78640
+stack: 1464 out of 15360
+GC: total: 163072, used: 79264, free: 83808
+No. of 1-blocks: 1662, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+554636000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84432 Allocated: 78640
+stack: 1464 out of 15360
+GC: total: 163072, used: 79232, free: 83840
+No. of 1-blocks: 1660, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+554692000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84368 Allocated: 78704
+stack: 1464 out of 15360
+GC: total: 163072, used: 79360, free: 83712
+No. of 1-blocks: 1663, 2-blocks: 241, max blk sz: 112, max free sz: 4988
+554744000 apps.monero.diag DEBUG Log trace BP START, ... F: 84496 A: 78576, S: 1480
+554818000 apps.monero.diag DEBUG Log trace From state, ... F: 83280 A: 79792, S: 1480
+phase1_post, state: 1, off: 0
+554843000 apps.monero.diag DEBUG Log trace 10, ... F: 82608 A: 80464, S: 2224
+554875000 apps.monero.diag DEBUG Log trace 18, ... F: 83024 A: 80048, S: 2224
+554903000 apps.monero.diag DEBUG Log trace 19, ... F: 84096 A: 78976, S: 2224
+MN: 512, nprime: 256
+554961000 apps.monero.diag DEBUG Log trace 20, ... F: 83200 A: 79872, S: 2224
+554992000 apps.monero.diag DEBUG Log trace 1, ... F: 82608 A: 80464, S: 1984
+555030000 apps.monero.diag DEBUG Log trace 1, ... F: 82528 A: 80544, S: 1984
+555069000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 84784 A: 78288, S: 1480
+555097000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 85008 A: 78064, S: 1480
+555133000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: -560 Free: 84928 Allocated: 78144
+stack: 1464 out of 15360
+GC: total: 163072, used: 78720, free: 84352
+No. of 1-blocks: 1650, 2-blocks: 236, max blk sz: 112, max free sz: 4988
+555162000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+555171000 trezor.workflow DEBUG default already started
+555182000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+555736000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+555813000 trezor.workflow DEBUG start: <generator object 'diag' at 20016410>
+555829000 apps.monero.diag DEBUG ----diagnostics
+555872000 apps.monero.diag DEBUG ======= 0  Diff: -1552 Free: 97952 Allocated: 65120
+stack: 1464 out of 15360
+GC: total: 163072, used: 65680, free: 97392
+No. of 1-blocks: 1430, 2-blocks: 149, max blk sz: 112, max free sz: 4988
+555986000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84560 Allocated: 78512
+stack: 1464 out of 15360
+GC: total: 163072, used: 79136, free: 83936
+No. of 1-blocks: 1656, 2-blocks: 244, max blk sz: 112, max free sz: 4988
+556039000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84560 Allocated: 78512
+stack: 1464 out of 15360
+GC: total: 163072, used: 79104, free: 83968
+No. of 1-blocks: 1654, 2-blocks: 244, max blk sz: 112, max free sz: 4988
+556095000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84496 Allocated: 78576
+stack: 1464 out of 15360
+GC: total: 163072, used: 79232, free: 83840
+No. of 1-blocks: 1657, 2-blocks: 246, max blk sz: 112, max free sz: 4988
+556141000 apps.monero.diag DEBUG Log trace BP START, ... F: 84624 A: 78448, S: 1480
+556238000 apps.monero.diag DEBUG Log trace From state, ... F: 83088 A: 79984, S: 1480
+_phase2_loop_offdot, state: 2, off: 0, round: 0, nprime: 256
+_phase2_loop_body_r0init, state: 2, off: 0
+556271000 apps.monero.diag DEBUG Log trace 34, ... F: 81104 A: 81968, S: 2456
+556299000 apps.monero.diag DEBUG Log trace 2, ... F: 81760 A: 81312, S: 2224
+556338000 apps.monero.diag DEBUG Log trace 10, ... F: 80736 A: 82336, S: 2224
+556472000 apps.monero.diag DEBUG Log trace 11, ... F: 80944 A: 82128, S: 2224
+556557000 apps.monero.diag DEBUG Log trace 12, ... F: 81600 A: 81472, S: 2224
+556642000 apps.monero.diag DEBUG Log trace 13, ... F: 81696 A: 81376, S: 2224
+556674000 apps.monero.diag DEBUG Log trace 14, ... F: 81584 A: 81488, S: 2224
+556705000 apps.monero.diag DEBUG Log trace 15, ... F: 81152 A: 81920, S: 2224
+Fold now
+556749000 apps.monero.diag DEBUG Log trace 22, ... F: 79264 A: 83808, S: 2400
+556779000 apps.monero.diag DEBUG Log trace 1, ... F: 80496 A: 82576, S: 1984
+556817000 apps.monero.diag DEBUG Log trace 1, ... F: 80544 A: 82528, S: 1984
+556856000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 82928 A: 80144, S: 1480
+556884000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83152 A: 79920, S: 1480
+556920000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 1424 Free: 83072 Allocated: 80000
+stack: 1464 out of 15360
+GC: total: 163072, used: 80576, free: 82496
+No. of 1-blocks: 1675, 2-blocks: 263, max blk sz: 112, max free sz: 4929
+556949000 trezor.workflow DEBUG close: <generator object 'diag' at 20016410>
+556961000 trezor.workflow DEBUG default already started
+556975000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+557137000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+557175000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+557184000 apps.monero.diag DEBUG ----diagnostics
+557228000 apps.monero.diag DEBUG ======= 0  Diff: -2960 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4938
+557340000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4938
+557394000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4938
+557450000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4938
+557498000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+557595000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 0, round: 0, nprime: 256, btch: 32
+557618000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 0
+557654000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+557684000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+557725000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+557754000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+559323000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+559353000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+559392000 apps.monero.diag DEBUG Log trace 1, ... F: 80704 A: 82368, S: 1984
+559431000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+559459000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+559504000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4807
+559534000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+559544000 trezor.workflow DEBUG default already started
+559554000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+559813000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+559851000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+559860000 apps.monero.diag DEBUG ----diagnostics
+559903000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+560026000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4958
+560088000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4958
+560144000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4958
+560192000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+560289000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 32, round: 0, nprime: 256, btch: 32
+560312000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 32
+560349000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+560378000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+560419000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+560449000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+562016000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+562046000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+562084000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+562122000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+562151000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+562187000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4827
+562216000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+562226000 trezor.workflow DEBUG default already started
+562237000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+562489000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+562527000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+562536000 apps.monero.diag DEBUG ----diagnostics
+562580000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4945
+562695000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+562753000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+562809000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+562856000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+562952000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 64, round: 0, nprime: 256, btch: 32
+562975000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 64
+563012000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+563042000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+563082000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+563112000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+564680000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+564710000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+564749000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+564787000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+564816000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+564852000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4814
+564884000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+564894000 trezor.workflow DEBUG default already started
+564904000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+565166000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+565204000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+565213000 apps.monero.diag DEBUG ----diagnostics
+565257000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+565368000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4958
+565421000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4958
+565477000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4958
+565524000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+565621000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 96, round: 0, nprime: 256, btch: 32
+565645000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 96
+565682000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+565711000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+565752000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+565787000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+567355000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+567385000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+567423000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+567463000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+567491000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+567527000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4827
+567556000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+567566000 trezor.workflow DEBUG default already started
+567578000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+567842000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+567881000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+567890000 apps.monero.diag DEBUG ----diagnostics
+567933000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4945
+568049000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+568102000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+568158000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+568204000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+568301000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 128, round: 0, nprime: 256, btch: 32
+568333000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 128
+568370000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+568399000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+568440000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+568476000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+570043000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+570075000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+570115000 apps.monero.diag DEBUG Log trace 1, ... F: 80704 A: 82368, S: 1984
+570154000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+570182000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+570218000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4814
+570252000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+570262000 trezor.workflow DEBUG default already started
+570273000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+570532000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+570570000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+570579000 apps.monero.diag DEBUG ----diagnostics
+570623000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+570735000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4958
+570789000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4958
+570846000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4958
+570892000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+570990000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 160, round: 0, nprime: 256, btch: 32
+571013000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 160
+571049000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+571085000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+571125000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+571155000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+572722000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+572756000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+572794000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+572832000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+572861000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+572899000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4827
+572936000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+572946000 trezor.workflow DEBUG default already started
+572957000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+573208000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+573246000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+573255000 apps.monero.diag DEBUG ----diagnostics
+573299000 apps.monero.diag DEBUG ======= 0  Diff: -2944 Free: 97696 Allocated: 65376
+stack: 1464 out of 15360
+GC: total: 163072, used: 65936, free: 97136
+No. of 1-blocks: 1429, 2-blocks: 144, max blk sz: 112, max free sz: 4945
+573411000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84304 Allocated: 78768
+stack: 1464 out of 15360
+GC: total: 163072, used: 79392, free: 83680
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+573473000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84304 Allocated: 78768
+stack: 1464 out of 15360
+GC: total: 163072, used: 79360, free: 83712
+No. of 1-blocks: 1653, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+573529000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79488, free: 83584
+No. of 1-blocks: 1656, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+573575000 apps.monero.diag DEBUG Log trace BP START, ... F: 84368 A: 78704, S: 1480
+573672000 apps.monero.diag DEBUG Log trace From state, ... F: 82832 A: 80240, S: 1480
+phase2_loop_fold, state: 3, off: 192, round: 0, nprime: 256, btch: 32
+573695000 apps.monero.diag DEBUG Log trace 2, ... F: 82064 A: 81008, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 192
+573731000 apps.monero.diag DEBUG Log trace 34, ... F: 81440 A: 81632, S: 2456
+573765000 apps.monero.diag DEBUG Log trace 5, ... F: 81648 A: 81424, S: 2224
+573806000 apps.monero.diag DEBUG Log trace 10, ... F: 80480 A: 82592, S: 2224
+573835000 apps.monero.diag DEBUG Log trace 12, ... F: 80176 A: 82896, S: 2224
+575403000 apps.monero.diag DEBUG Log trace 15, ... F: 80368 A: 82704, S: 2224
+575438000 apps.monero.diag DEBUG Log trace 1, ... F: 80048 A: 83024, S: 1984
+575476000 apps.monero.diag DEBUG Log trace 1, ... F: 80768 A: 82304, S: 1984
+575515000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83120 A: 79952, S: 1480
+575543000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83344 A: 79728, S: 1480
+575579000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83264 Allocated: 79808
+stack: 1464 out of 15360
+GC: total: 163072, used: 80384, free: 82688
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4814
+575608000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+575618000 trezor.workflow DEBUG default already started
+575629000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+575885000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+575930000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+575939000 apps.monero.diag DEBUG ----diagnostics
+575983000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+576095000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+576148000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+576204000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4988
+576251000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+576348000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 3, off: 224, round: 0, nprime: 256, btch: 32
+576371000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 3, off: 224
+576411000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+576443000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+576484000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+576513000 apps.monero.diag DEBUG Log trace 12, ... F: 80112 A: 82960, S: 2224
+578082000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+Moved to state 4, npr 256
+578115000 apps.monero.diag DEBUG Log trace 1, ... F: 79920 A: 83152, S: 1984
+578153000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+578191000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+578220000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+578255000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4833
+578284000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+578294000 trezor.workflow DEBUG default already started
+578305000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+578561000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+578599000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+578609000 apps.monero.diag DEBUG ----diagnostics
+578652000 apps.monero.diag DEBUG ======= 0  Diff: -2944 Free: 97696 Allocated: 65376
+stack: 1464 out of 15360
+GC: total: 163072, used: 65936, free: 97136
+No. of 1-blocks: 1429, 2-blocks: 144, max blk sz: 112, max free sz: 4975
+578765000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84304 Allocated: 78768
+stack: 1464 out of 15360
+GC: total: 163072, used: 79392, free: 83680
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+578818000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84304 Allocated: 78768
+stack: 1464 out of 15360
+GC: total: 163072, used: 79360, free: 83712
+No. of 1-blocks: 1653, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+578874000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79488, free: 83584
+No. of 1-blocks: 1656, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+578922000 apps.monero.diag DEBUG Log trace BP START, ... F: 84368 A: 78704, S: 1480
+579025000 apps.monero.diag DEBUG Log trace From state, ... F: 82832 A: 80240, S: 1480
+phase2_loop_fold, state: 4, off: 0, round: 0, nprime: 256, btch: 32
+579048000 apps.monero.diag DEBUG Log trace 2, ... F: 82064 A: 81008, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 0
+579085000 apps.monero.diag DEBUG Log trace 34, ... F: 81440 A: 81632, S: 2456
+579137000 apps.monero.diag DEBUG Log trace 5, ... F: 81648 A: 81424, S: 2224
+579178000 apps.monero.diag DEBUG Log trace 10, ... F: 80480 A: 82592, S: 2224
+579208000 apps.monero.diag DEBUG Log trace 12, ... F: 80144 A: 82928, S: 2224
+582394000 apps.monero.diag DEBUG Log trace 15, ... F: 80368 A: 82704, S: 2224
+582424000 apps.monero.diag DEBUG Log trace 1, ... F: 80048 A: 83024, S: 1984
+582462000 apps.monero.diag DEBUG Log trace 1, ... F: 80816 A: 82256, S: 1984
+582501000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83120 A: 79952, S: 1480
+582529000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83344 A: 79728, S: 1480
+582572000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83264 Allocated: 79808
+stack: 1464 out of 15360
+GC: total: 163072, used: 80384, free: 82688
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4844
+582601000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+582611000 trezor.workflow DEBUG default already started
+582622000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+582872000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+582910000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+582920000 apps.monero.diag DEBUG ----diagnostics
+582963000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+583075000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+583138000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+583195000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4988
+583241000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+583338000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 32, round: 0, nprime: 256, btch: 32
+583361000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 32
+583398000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+583428000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+583469000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+583499000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+586687000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+586722000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+586760000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+586798000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+586827000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+586862000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4833
+586891000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+586901000 trezor.workflow DEBUG default already started
+586912000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+587170000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+587208000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+587221000 apps.monero.diag DEBUG ----diagnostics
+587264000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4975
+587377000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+587430000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+587491000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+587538000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+587634000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 64, round: 0, nprime: 256, btch: 32
+587663000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 64
+587702000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+587731000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+587776000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+587807000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+590995000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+591025000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+591063000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+591101000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+591130000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+591167000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4814
+591197000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+591207000 trezor.workflow DEBUG default already started
+591219000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+591481000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+591519000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+591528000 apps.monero.diag DEBUG ----diagnostics
+591571000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+591683000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+591739000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+591796000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4988
+591842000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+591939000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 96, round: 0, nprime: 256, btch: 32
+591967000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 96
+592004000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+592033000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+592074000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+592104000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+595290000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+595320000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+595358000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+595397000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+595425000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+595461000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4833
+595494000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+595504000 trezor.workflow DEBUG default already started
+595516000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+595766000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+595804000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+595813000 apps.monero.diag DEBUG ----diagnostics
+595856000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4975
+595970000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+596023000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+596079000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+596131000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+596227000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 128, round: 0, nprime: 256, btch: 32
+596250000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 128
+596286000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+596316000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+596356000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+596392000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+599580000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+599610000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+599648000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+599687000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+599716000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+599751000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4814
+599783000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+599793000 trezor.workflow DEBUG default already started
+599804000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+600064000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+600102000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+600111000 apps.monero.diag DEBUG ----diagnostics
+600155000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+600271000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+600324000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+600387000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4988
+600436000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+600537000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 160, round: 0, nprime: 256, btch: 32
+600560000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 160
+600598000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+600628000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+600668000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+600698000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+603885000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+603915000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+603953000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+603992000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+604020000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+604056000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4833
+604085000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+604095000 trezor.workflow DEBUG default already started
+604106000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+604362000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+604400000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+604409000 apps.monero.diag DEBUG ----diagnostics
+604452000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4975
+604568000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+604622000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4945
+604678000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4945
+604725000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+604822000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 192, round: 0, nprime: 256, btch: 32
+604845000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 192
+604881000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+604915000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+604956000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+604985000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+608172000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+608202000 apps.monero.diag DEBUG Log trace 1, ... F: 79984 A: 83088, S: 1984
+608240000 apps.monero.diag DEBUG Log trace 1, ... F: 80752 A: 82320, S: 1984
+608278000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83056 A: 80016, S: 1480
+608307000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83280 A: 79792, S: 1480
+608343000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 976 Free: 83200 Allocated: 79872
+stack: 1464 out of 15360
+GC: total: 163072, used: 80448, free: 82624
+No. of 1-blocks: 1655, 2-blocks: 239, max blk sz: 112, max free sz: 4814
+608373000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+608383000 trezor.workflow DEBUG default already started
+608393000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+608647000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+608685000 trezor.workflow DEBUG start: <generator object 'diag' at 20015100>
+608694000 apps.monero.diag DEBUG ----diagnostics
+608740000 apps.monero.diag DEBUG ======= 0  Diff: -2880 Free: 97632 Allocated: 65440
+stack: 1464 out of 15360
+GC: total: 163072, used: 66000, free: 97072
+No. of 1-blocks: 1430, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+608852000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79456, free: 83616
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+608905000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84240 Allocated: 78832
+stack: 1464 out of 15360
+GC: total: 163072, used: 79424, free: 83648
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4988
+608961000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84176 Allocated: 78896
+stack: 1464 out of 15360
+GC: total: 163072, used: 79552, free: 83520
+No. of 1-blocks: 1657, 2-blocks: 241, max blk sz: 112, max free sz: 4988
+609008000 apps.monero.diag DEBUG Log trace BP START, ... F: 84304 A: 78768, S: 1480
+609105000 apps.monero.diag DEBUG Log trace From state, ... F: 82768 A: 80304, S: 1480
+phase2_loop_fold, state: 4, off: 224, round: 0, nprime: 256, btch: 32
+609128000 apps.monero.diag DEBUG Log trace 2, ... F: 82000 A: 81072, S: 2224
+_phase2_loop_body_r0init, state: 4, off: 224
+609165000 apps.monero.diag DEBUG Log trace 34, ... F: 81376 A: 81696, S: 2456
+609194000 apps.monero.diag DEBUG Log trace 5, ... F: 81584 A: 81488, S: 2224
+609235000 apps.monero.diag DEBUG Log trace 10, ... F: 80416 A: 82656, S: 2224
+609264000 apps.monero.diag DEBUG Log trace 12, ... F: 80080 A: 82992, S: 2224
+612453000 apps.monero.diag DEBUG Log trace 15, ... F: 80304 A: 82768, S: 2224
+Moved to state 5, npr 256
+612485000 apps.monero.diag DEBUG Log trace 16, ... F: 80432 A: 82640, S: 2224
+Moved to state 2
+612516000 apps.monero.diag DEBUG Log trace 1, ... F: 80048 A: 83024, S: 1984
+612555000 apps.monero.diag DEBUG Log trace 1, ... F: 80128 A: 82944, S: 1984
+612593000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83200 A: 79872, S: 1480
+612622000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83424 A: 79648, S: 1480
+612657000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 832 Free: 83344 Allocated: 79728
+stack: 1464 out of 15360
+GC: total: 163072, used: 80304, free: 82768
+No. of 1-blocks: 1652, 2-blocks: 239, max blk sz: 112, max free sz: 4833
+612687000 trezor.workflow DEBUG close: <generator object 'diag' at 20015100>
+612696000 trezor.workflow DEBUG default already started
+612710000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+613138000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+613215000 trezor.workflow DEBUG start: <generator object 'diag' at 20016410>
+613226000 apps.monero.diag DEBUG ----diagnostics
+613269000 apps.monero.diag DEBUG ======= 0  Diff: -2608 Free: 97456 Allocated: 65616
+stack: 1464 out of 15360
+GC: total: 163072, used: 66176, free: 96896
+No. of 1-blocks: 1431, 2-blocks: 152, max blk sz: 112, max free sz: 4975
+613382000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79632, free: 83440
+No. of 1-blocks: 1657, 2-blocks: 247, max blk sz: 112, max free sz: 4945
+613435000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79600, free: 83472
+No. of 1-blocks: 1655, 2-blocks: 247, max blk sz: 112, max free sz: 4945
+613491000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84000 Allocated: 79072
+stack: 1464 out of 15360
+GC: total: 163072, used: 79728, free: 83344
+No. of 1-blocks: 1658, 2-blocks: 249, max blk sz: 112, max free sz: 4945
+613546000 apps.monero.diag DEBUG Log trace BP START, ... F: 84128 A: 78944, S: 1480
+613643000 apps.monero.diag DEBUG Log trace From state, ... F: 82592 A: 80480, S: 1480
+_phase2_loop_offdot, state: 2, off: 0, round: 1, nprime: 128
+613666000 apps.monero.diag DEBUG Log trace 2, ... F: 81904 A: 81168, S: 2224
+613705000 apps.monero.diag DEBUG Log trace 10, ... F: 81328 A: 81744, S: 2224
+613835000 apps.monero.diag DEBUG Log trace 11, ... F: 81568 A: 81504, S: 2224
+613924000 apps.monero.diag DEBUG Log trace 12, ... F: 82144 A: 80928, S: 2224
+614009000 apps.monero.diag DEBUG Log trace 13, ... F: 82240 A: 80832, S: 2224
+614041000 apps.monero.diag DEBUG Log trace 14, ... F: 82128 A: 80944, S: 2224
+614071000 apps.monero.diag DEBUG Log trace 15, ... F: 82224 A: 80848, S: 2224
+fold offload
+614115000 apps.monero.diag DEBUG Log trace 22, ... F: 80304 A: 82768, S: 2400
+614145000 apps.monero.diag DEBUG Log trace 1, ... F: 80864 A: 82208, S: 1984
+614183000 apps.monero.diag DEBUG Log trace 1, ... F: 80944 A: 82128, S: 1984
+614222000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83072 A: 80000, S: 1480
+614250000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83296 A: 79776, S: 1480
+614286000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 784 Free: 83216 Allocated: 79856
+stack: 1464 out of 15360
+GC: total: 163072, used: 80432, free: 82640
+No. of 1-blocks: 1672, 2-blocks: 263, max blk sz: 112, max free sz: 4945
+614315000 trezor.workflow DEBUG close: <generator object 'diag' at 20016410>
+614325000 trezor.workflow DEBUG default already started
+614336000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+614630000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+614707000 trezor.workflow DEBUG start: <generator object 'diag' at 200166b0>
+614716000 apps.monero.diag DEBUG ----diagnostics
+614760000 apps.monero.diag DEBUG ======= 0  Diff: -2688 Free: 97456 Allocated: 65616
+stack: 1464 out of 15360
+GC: total: 163072, used: 66176, free: 96896
+No. of 1-blocks: 1431, 2-blocks: 152, max blk sz: 112, max free sz: 4988
+614873000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79632, free: 83440
+No. of 1-blocks: 1657, 2-blocks: 247, max blk sz: 112, max free sz: 4924
+614927000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79600, free: 83472
+No. of 1-blocks: 1655, 2-blocks: 247, max blk sz: 112, max free sz: 4924
+614983000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84000 Allocated: 79072
+stack: 1464 out of 15360
+GC: total: 163072, used: 79728, free: 83344
+No. of 1-blocks: 1658, 2-blocks: 249, max blk sz: 112, max free sz: 4924
+615029000 apps.monero.diag DEBUG Log trace BP START, ... F: 84128 A: 78944, S: 1480
+615127000 apps.monero.diag DEBUG Log trace From state, ... F: 82592 A: 80480, S: 1480
+_phase2_loop_offdot, state: 2, off: 0, round: 2, nprime: 64
+615149000 apps.monero.diag DEBUG Log trace 2, ... F: 81904 A: 81168, S: 2224
+615188000 apps.monero.diag DEBUG Log trace 10, ... F: 81392 A: 81680, S: 2224
+615319000 apps.monero.diag DEBUG Log trace 11, ... F: 81632 A: 81440, S: 2224
+615404000 apps.monero.diag DEBUG Log trace 12, ... F: 82208 A: 80864, S: 2224
+615489000 apps.monero.diag DEBUG Log trace 13, ... F: 82304 A: 80768, S: 2224
+615521000 apps.monero.diag DEBUG Log trace 14, ... F: 82192 A: 80880, S: 2224
+615551000 apps.monero.diag DEBUG Log trace 15, ... F: 82288 A: 80784, S: 2224
+fold offload
+615595000 apps.monero.diag DEBUG Log trace 22, ... F: 80368 A: 82704, S: 2400
+615625000 apps.monero.diag DEBUG Log trace 1, ... F: 80928 A: 82144, S: 1984
+615669000 apps.monero.diag DEBUG Log trace 1, ... F: 80816 A: 82256, S: 1984
+615708000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83072 A: 80000, S: 1480
+615736000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 83296 A: 79776, S: 1480
+615772000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 784 Free: 83216 Allocated: 79856
+stack: 1464 out of 15360
+GC: total: 163072, used: 80432, free: 82640
+No. of 1-blocks: 1672, 2-blocks: 263, max blk sz: 112, max free sz: 4924
+615805000 trezor.workflow DEBUG close: <generator object 'diag' at 200166b0>
+615815000 trezor.workflow DEBUG default already started
+615827000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+616059000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+616135000 trezor.workflow DEBUG start: <generator object 'diag' at 200164d0>
+616144000 apps.monero.diag DEBUG ----diagnostics
+616188000 apps.monero.diag DEBUG ======= 0  Diff: -2688 Free: 97456 Allocated: 65616
+stack: 1464 out of 15360
+GC: total: 163072, used: 66176, free: 96896
+No. of 1-blocks: 1431, 2-blocks: 152, max blk sz: 112, max free sz: 4988
+616301000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79632, free: 83440
+No. of 1-blocks: 1657, 2-blocks: 247, max blk sz: 112, max free sz: 4958
+616354000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79600, free: 83472
+No. of 1-blocks: 1655, 2-blocks: 247, max blk sz: 112, max free sz: 4958
+616412000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 84000 Allocated: 79072
+stack: 1464 out of 15360
+GC: total: 163072, used: 79728, free: 83344
+No. of 1-blocks: 1658, 2-blocks: 249, max blk sz: 112, max free sz: 4958
+616466000 apps.monero.diag DEBUG Log trace BP START, ... F: 84128 A: 78944, S: 1480
+616564000 apps.monero.diag DEBUG Log trace From state, ... F: 82592 A: 80480, S: 1480
+_phase2_loop_offdot, state: 2, off: 0, round: 3, nprime: 32
+616586000 apps.monero.diag DEBUG Log trace 2, ... F: 81904 A: 81168, S: 2224
+616625000 apps.monero.diag DEBUG Log trace 10, ... F: 81392 A: 81680, S: 2224
+616755000 apps.monero.diag DEBUG Log trace 11, ... F: 81632 A: 81440, S: 2224
+616841000 apps.monero.diag DEBUG Log trace 12, ... F: 82208 A: 80864, S: 2224
+616927000 apps.monero.diag DEBUG Log trace 13, ... F: 82304 A: 80768, S: 2224
+616959000 apps.monero.diag DEBUG Log trace 14, ... F: 82192 A: 80880, S: 2224
+616989000 apps.monero.diag DEBUG Log trace 15, ... F: 82288 A: 80784, S: 2224
+Off2, fold anyway - threshold reached
+617020000 apps.monero.diag DEBUG Log trace 1, ... F: 81920 A: 81152, S: 1984
+617059000 apps.monero.diag DEBUG Log trace 1, ... F: 81792 A: 81280, S: 1984
+617102000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 83920 A: 79152, S: 1480
+617130000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 84144 A: 78928, S: 1480
+617166000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: -64 Free: 84064 Allocated: 79008
+stack: 1464 out of 15360
+GC: total: 163072, used: 79584, free: 83488
+No. of 1-blocks: 1655, 2-blocks: 247, max blk sz: 112, max free sz: 4958
+617195000 trezor.workflow DEBUG close: <generator object 'diag' at 200164d0>
+617205000 trezor.workflow DEBUG default already started
+617216000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+617268000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+617718000 trezor.workflow DEBUG start: <generator object 'diag' at 200186f0>
+617727000 apps.monero.diag DEBUG ----diagnostics
+617770000 apps.monero.diag DEBUG ======= 0  Diff: -48 Free: 95648 Allocated: 67424
+stack: 1464 out of 15360
+GC: total: 163072, used: 67984, free: 95088
+No. of 1-blocks: 1428, 2-blocks: 144, max blk sz: 112, max free sz: 4988
+617883000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 82256 Allocated: 80816
+stack: 1464 out of 15360
+GC: total: 163072, used: 81440, free: 81632
+No. of 1-blocks: 1654, 2-blocks: 239, max blk sz: 112, max free sz: 4950
+617936000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 82256 Allocated: 80816
+stack: 1464 out of 15360
+GC: total: 163072, used: 81408, free: 81664
+No. of 1-blocks: 1652, 2-blocks: 239, max blk sz: 112, max free sz: 4944
+617992000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 82192 Allocated: 80880
+stack: 1464 out of 15360
+GC: total: 163072, used: 81536, free: 81536
+No. of 1-blocks: 1655, 2-blocks: 241, max blk sz: 112, max free sz: 4944
+618042000 apps.monero.diag DEBUG Log trace BP START, ... F: 82320 A: 80752, S: 1480
+618139000 apps.monero.diag DEBUG Log trace From state, ... F: 80784 A: 82288, S: 1480
+phase2_loop_fold, state: 3, off: 0, round: 3, nprime: 32, btch: 32
+618162000 apps.monero.diag DEBUG Log trace 2, ... F: 80016 A: 83056, S: 2224
+618195000 apps.monero.diag DEBUG Log trace 5, ... F: 80320 A: 82752, S: 2224
+618236000 apps.monero.diag DEBUG Log trace 10, ... F: 79104 A: 83968, S: 2224
+618267000 apps.monero.diag DEBUG Log trace 12, ... F: 78752 A: 84320, S: 2224
+619095000 apps.monero.diag DEBUG Log trace 15, ... F: 79008 A: 84064, S: 2224
+Moved to state 4, npr 32
+619128000 apps.monero.diag DEBUG Log trace 1, ... F: 78704 A: 84368, S: 1984
+619167000 apps.monero.diag DEBUG Log trace 1, ... F: 79008 A: 84064, S: 1984
+619205000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 81024 A: 82048, S: 1480
+619234000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 81248 A: 81824, S: 1480
+619271000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 1024 Free: 81168 Allocated: 81904
+stack: 1464 out of 15360
+GC: total: 163072, used: 82480, free: 80592
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4804
+619308000 trezor.workflow DEBUG close: <generator object 'diag' at 200186f0>
+619322000 trezor.workflow DEBUG default already started
+619334000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+619391000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+619841000 trezor.workflow DEBUG start: <generator object 'diag' at 20018980>
+619850000 apps.monero.diag DEBUG ----diagnostics
+619894000 apps.monero.diag DEBUG ======= 0  Diff: -1824 Free: 94560 Allocated: 68512
+stack: 1464 out of 15360
+GC: total: 163072, used: 69072, free: 94000
+No. of 1-blocks: 1432, 2-blocks: 144, max blk sz: 112, max free sz: 4740
+620010000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 81168 Allocated: 81904
+stack: 1464 out of 15360
+GC: total: 163072, used: 82528, free: 80544
+No. of 1-blocks: 1658, 2-blocks: 239, max blk sz: 112, max free sz: 4740
+620066000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 81168 Allocated: 81904
+stack: 1464 out of 15360
+GC: total: 163072, used: 82496, free: 80576
+No. of 1-blocks: 1656, 2-blocks: 239, max blk sz: 112, max free sz: 4740
+620122000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 81104 Allocated: 81968
+stack: 1464 out of 15360
+GC: total: 163072, used: 82624, free: 80448
+No. of 1-blocks: 1659, 2-blocks: 241, max blk sz: 112, max free sz: 4740
+620169000 apps.monero.diag DEBUG Log trace BP START, ... F: 81232 A: 81840, S: 1480
+620279000 apps.monero.diag DEBUG Log trace From state, ... F: 79536 A: 83536, S: 1480
+phase2_loop_fold, state: 4, off: 0, round: 3, nprime: 32, btch: 32
+620303000 apps.monero.diag DEBUG Log trace 2, ... F: 78768 A: 84304, S: 2224
+620333000 apps.monero.diag DEBUG Log trace 5, ... F: 79072 A: 84000, S: 2224
+620374000 apps.monero.diag DEBUG Log trace 10, ... F: 77856 A: 85216, S: 2224
+620407000 apps.monero.diag DEBUG Log trace 12, ... F: 77472 A: 85600, S: 2224
+621246000 apps.monero.diag DEBUG Log trace 15, ... F: 77760 A: 85312, S: 2224
+Moved to state 5, npr 32
+621280000 apps.monero.diag DEBUG Log trace 1, ... F: 77376 A: 85696, S: 1984
+621319000 apps.monero.diag DEBUG Log trace 1, ... F: 77920 A: 85152, S: 1984
+621358000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 79936 A: 83136, S: 1480
+621387000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 80160 A: 82912, S: 1480
+621423000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 1024 Free: 80080 Allocated: 82992
+stack: 1464 out of 15360
+GC: total: 163072, used: 83568, free: 79504
+No. of 1-blocks: 1660, 2-blocks: 239, max blk sz: 112, max free sz: 4585
+621452000 trezor.workflow DEBUG close: <generator object 'diag' at 20018980>
+621462000 trezor.workflow DEBUG default already started
+621473000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+621528000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+621977000 trezor.workflow DEBUG start: <generator object 'diag' at 20018ab0>
+621986000 apps.monero.diag DEBUG ----diagnostics
+622030000 apps.monero.diag DEBUG ======= 0  Diff: -1824 Free: 93472 Allocated: 69600
+stack: 1464 out of 15360
+GC: total: 163072, used: 70160, free: 92912
+No. of 1-blocks: 1436, 2-blocks: 144, max blk sz: 112, max free sz: 4585
+622145000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 80080 Allocated: 82992
+stack: 1464 out of 15360
+GC: total: 163072, used: 83616, free: 79456
+No. of 1-blocks: 1662, 2-blocks: 239, max blk sz: 112, max free sz: 4585
+622200000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 80080 Allocated: 82992
+stack: 1464 out of 15360
+GC: total: 163072, used: 83584, free: 79488
+No. of 1-blocks: 1660, 2-blocks: 239, max blk sz: 112, max free sz: 4585
+622257000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 80016 Allocated: 83056
+stack: 1464 out of 15360
+GC: total: 163072, used: 83712, free: 79360
+No. of 1-blocks: 1663, 2-blocks: 241, max blk sz: 112, max free sz: 4585
+622309000 apps.monero.diag DEBUG Log trace BP START, ... F: 80144 A: 82928, S: 1480
+622432000 apps.monero.diag DEBUG Log trace From state, ... F: 78288 A: 84784, S: 1480
+phase2_loop_fold, state: 5, off: 0, round: 3, nprime: 32, btch: 32
+622459000 apps.monero.diag DEBUG Log trace 2, ... F: 77520 A: 85552, S: 2224
+622490000 apps.monero.diag DEBUG Log trace 5, ... F: 77824 A: 85248, S: 2224
+622531000 apps.monero.diag DEBUG Log trace 10, ... F: 76608 A: 86464, S: 2224
+622567000 apps.monero.diag DEBUG Log trace 12, ... F: 76224 A: 86848, S: 2224
+622630000 apps.monero.diag DEBUG Log trace 15, ... F: 76512 A: 86560, S: 2224
+Moved to state 6, npr 32
+622665000 apps.monero.diag DEBUG Log trace 1, ... F: 76096 A: 86976, S: 1984
+622703000 apps.monero.diag DEBUG Log trace 1, ... F: 76832 A: 86240, S: 1984
+622742000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 78848 A: 84224, S: 1480
+622771000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 79072 A: 84000, S: 1480
+622806000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 1024 Free: 78992 Allocated: 84080
+stack: 1464 out of 15360
+GC: total: 163072, used: 84656, free: 78416
+No. of 1-blocks: 1664, 2-blocks: 239, max blk sz: 112, max free sz: 4585
+622836000 trezor.workflow DEBUG close: <generator object 'diag' at 20018ab0>
+622846000 trezor.workflow DEBUG default already started
+622857000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+622918000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+623367000 trezor.workflow DEBUG start: <generator object 'diag' at 20018910>
+623376000 apps.monero.diag DEBUG ----diagnostics
+623420000 apps.monero.diag DEBUG ======= 0  Diff: -1824 Free: 92384 Allocated: 70688
+stack: 1464 out of 15360
+GC: total: 163072, used: 71248, free: 91824
+No. of 1-blocks: 1440, 2-blocks: 144, max blk sz: 112, max free sz: 4585
+623532000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 78992 Allocated: 84080
+stack: 1464 out of 15360
+GC: total: 163072, used: 84704, free: 78368
+No. of 1-blocks: 1666, 2-blocks: 239, max blk sz: 112, max free sz: 4585
+623586000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 78992 Allocated: 84080
+stack: 1464 out of 15360
+GC: total: 163072, used: 84672, free: 78400
+No. of 1-blocks: 1664, 2-blocks: 239, max blk sz: 112, max free sz: 4585
+623643000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 78928 Allocated: 84144
+stack: 1464 out of 15360
+GC: total: 163072, used: 84800, free: 78272
+No. of 1-blocks: 1667, 2-blocks: 241, max blk sz: 112, max free sz: 4585
+623697000 apps.monero.diag DEBUG Log trace BP START, ... F: 79056 A: 84016, S: 1480
+623831000 apps.monero.diag DEBUG Log trace From state, ... F: 77040 A: 86032, S: 1480
+phase2_loop_fold, state: 6, off: 0, round: 3, nprime: 32, btch: 32
+623858000 apps.monero.diag DEBUG Log trace 2, ... F: 76272 A: 86800, S: 2224
+623888000 apps.monero.diag DEBUG Log trace 5, ... F: 76576 A: 86496, S: 2224
+623929000 apps.monero.diag DEBUG Log trace 10, ... F: 75360 A: 87712, S: 2224
+623960000 apps.monero.diag DEBUG Log trace 12, ... F: 75008 A: 88064, S: 2224
+624024000 apps.monero.diag DEBUG Log trace 15, ... F: 75264 A: 87808, S: 2224
+Moved to state 7, npr 32
+624056000 apps.monero.diag DEBUG Log trace 16, ... F: 75568 A: 87504, S: 2224
+Moved to state 10
+624091000 apps.monero.diag DEBUG Log trace 1, ... F: 74832 A: 88240, S: 1984
+624129000 apps.monero.diag DEBUG Log trace 1, ... F: 75744 A: 87328, S: 1984
+624168000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 77760 A: 85312, S: 1480
+624197000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 77984 A: 85088, S: 1480
+624233000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 1024 Free: 77904 Allocated: 85168
+stack: 1464 out of 15360
+GC: total: 163072, used: 85744, free: 77328
+No. of 1-blocks: 1668, 2-blocks: 239, max blk sz: 112, max free sz: 4454
+624265000 trezor.workflow DEBUG close: <generator object 'diag' at 20018910>
+624275000 trezor.workflow DEBUG default already started
+624286000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
+624332000 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+624370000 trezor.workflow DEBUG start: <generator object 'diag' at 20014f60>
+624379000 apps.monero.diag DEBUG ----diagnostics
+624423000 apps.monero.diag DEBUG ======= 0  Diff: -3968 Free: 93488 Allocated: 69584
+stack: 1464 out of 15360
+GC: total: 163072, used: 70144, free: 92928
+No. of 1-blocks: 1442, 2-blocks: 144, max blk sz: 112, max free sz: 4454
+624537000 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 13392 Free: 80096 Allocated: 82976
+stack: 1464 out of 15360
+GC: total: 163072, used: 83600, free: 79472
+No. of 1-blocks: 1668, 2-blocks: 239, max blk sz: 112, max free sz: 4454
+624591000 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 80096 Allocated: 82976
+stack: 1464 out of 15360
+GC: total: 163072, used: 83568, free: 79504
+No. of 1-blocks: 1666, 2-blocks: 239, max blk sz: 112, max free sz: 4454
+624651000 apps.monero.diag DEBUG ======= 3 +++BP START: 1; 2 Diff: 64 Free: 80032 Allocated: 83040
+stack: 1464 out of 15360
+GC: total: 163072, used: 83696, free: 79376
+No. of 1-blocks: 1669, 2-blocks: 241, max blk sz: 112, max free sz: 4454
+624698000 apps.monero.diag DEBUG Log trace BP START, ... F: 80160 A: 82912, S: 1480
+624842000 apps.monero.diag DEBUG Log trace From state, ... F: 77984 A: 85088, S: 1480
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 8, r: 4, nprime: 16
+624868000 apps.monero.diag DEBUG Log trace 22, ... F: 77040 A: 86032, S: 2448
+624944000 apps.monero.diag DEBUG Log trace 23, ... F: 77632 A: 85440, S: 2448
+625431000 apps.monero.diag DEBUG Log trace 24, ... F: 77488 A: 85584, S: 2448
+625916000 apps.monero.diag DEBUG Log trace 25, ... F: 77488 A: 85584, S: 2448
+625947000 apps.monero.diag DEBUG Log trace 26, ... F: 77696 A: 85376, S: 2448
+626009000 apps.monero.diag DEBUG Log trace 27, ... F: 77168 A: 85904, S: 2448
+626073000 apps.monero.diag DEBUG Log trace 28, ... F: 77712 A: 85360, S: 2448
+626522000 apps.monero.diag DEBUG Log trace 30, ... F: 78256 A: 84816, S: 2448
+626972000 apps.monero.diag DEBUG Log trace 31, ... F: 78800 A: 84272, S: 2448
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 8, r: 5, nprime: 8
+627009000 apps.monero.diag DEBUG Log trace 22, ... F: 79680 A: 83392, S: 2448
+627071000 apps.monero.diag DEBUG Log trace 23, ... F: 79808 A: 83264, S: 2448
+627361000 apps.monero.diag DEBUG Log trace 24, ... F: 79664 A: 83408, S: 2448
+627652000 apps.monero.diag DEBUG Log trace 25, ... F: 79664 A: 83408, S: 2448
+627683000 apps.monero.diag DEBUG Log trace 26, ... F: 79872 A: 83200, S: 2448
+627739000 apps.monero.diag DEBUG Log trace 27, ... F: 79600 A: 83472, S: 2448
+627794000 apps.monero.diag DEBUG Log trace 28, ... F: 79856 A: 83216, S: 2448
+628042000 apps.monero.diag DEBUG Log trace 30, ... F: 80112 A: 82960, S: 2448
+628289000 apps.monero.diag DEBUG Log trace 31, ... F: 80368 A: 82704, S: 2448
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 8, r: 6, nprime: 4
+628324000 apps.monero.diag DEBUG Log trace 22, ... F: 80704 A: 82368, S: 2448
+628382000 apps.monero.diag DEBUG Log trace 23, ... F: 80832 A: 82240, S: 2448
+628574000 apps.monero.diag DEBUG Log trace 24, ... F: 80688 A: 82384, S: 2448
+628768000 apps.monero.diag DEBUG Log trace 25, ... F: 80688 A: 82384, S: 2448
+628799000 apps.monero.diag DEBUG Log trace 26, ... F: 80896 A: 82176, S: 2448
+628852000 apps.monero.diag DEBUG Log trace 27, ... F: 80752 A: 82320, S: 2448
+628905000 apps.monero.diag DEBUG Log trace 28, ... F: 80880 A: 82192, S: 2448
+629055000 apps.monero.diag DEBUG Log trace 30, ... F: 81008 A: 82064, S: 2448
+629205000 apps.monero.diag DEBUG Log trace 31, ... F: 81136 A: 81936, S: 2448
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 8, r: 7, nprime: 2
+629240000 apps.monero.diag DEBUG Log trace 22, ... F: 81216 A: 81856, S: 2448
+629294000 apps.monero.diag DEBUG Log trace 23, ... F: 81344 A: 81728, S: 2448
+629439000 apps.monero.diag DEBUG Log trace 24, ... F: 81200 A: 81872, S: 2448
+629582000 apps.monero.diag DEBUG Log trace 25, ... F: 81200 A: 81872, S: 2448
+629613000 apps.monero.diag DEBUG Log trace 26, ... F: 81408 A: 81664, S: 2448
+629665000 apps.monero.diag DEBUG Log trace 27, ... F: 81328 A: 81744, S: 2448
+629716000 apps.monero.diag DEBUG Log trace 28, ... F: 81392 A: 81680, S: 2448
+629820000 apps.monero.diag DEBUG Log trace 30, ... F: 81456 A: 81616, S: 2448
+629920000 apps.monero.diag DEBUG Log trace 31, ... F: 81520 A: 81552, S: 2448
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 8, r: 8, nprime: 1
+629955000 apps.monero.diag DEBUG Log trace 22, ... F: 81472 A: 81600, S: 2448
+630008000 apps.monero.diag DEBUG Log trace 23, ... F: 81600 A: 81472, S: 2448
+630127000 apps.monero.diag DEBUG Log trace 24, ... F: 81456 A: 81616, S: 2448
+630246000 apps.monero.diag DEBUG Log trace 25, ... F: 81456 A: 81616, S: 2448
+630277000 apps.monero.diag DEBUG Log trace 26, ... F: 81664 A: 81408, S: 2448
+630328000 apps.monero.diag DEBUG Log trace 27, ... F: 81616 A: 81456, S: 2448
+630379000 apps.monero.diag DEBUG Log trace 28, ... F: 81648 A: 81424, S: 2448
+630454000 apps.monero.diag DEBUG Log trace 30, ... F: 81680 A: 81392, S: 2448
+630529000 apps.monero.diag DEBUG Log trace 31, ... F: 81712 A: 81360, S: 2448
+630626000 apps.monero.diag DEBUG Log trace 1, ... F: 76432 A: 86640, S: 1984
+630664000 apps.monero.diag DEBUG Log trace 1, ... F: 77408 A: 85664, S: 1984
+630703000 apps.monero.diag DEBUG Log trace BP STATE, ... F: 79504 A: 83568, S: 1480
+630732000 apps.monero.diag DEBUG Log trace BP STEP, ... F: 79728 A: 83344, S: 1480
+630768000 apps.monero.diag DEBUG ======= 4 +++BP STEP Diff: 384 Free: 79648 Allocated: 83424
+stack: 1464 out of 15360
+GC: total: 163072, used: 84000, free: 79072
+No. of 1-blocks: 1763, 2-blocks: 260, max blk sz: 112, max free sz: 4816
+630899000 trezor.workflow DEBUG close: <generator object 'diag' at 20014f60>
+630908000 trezor.workflow DEBUG default already started
+630917000 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>

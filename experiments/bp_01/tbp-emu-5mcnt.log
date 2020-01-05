@@ -1,0 +1,10 @@
+./emu.sh
+Trezor^emu profile name: /var/tmp
+Trezor^emu profile directory: /var/tmp
+Trezor^emu log file: /var/tmp/trezor.log
+Trezor^emu UDP port: 21324
+Trezor^emu path: udp:127.0.0.1:21324
+Trezor^emu src: /Users/dusanklinec/workspace/trezor-firmware/core/src
+Starting emulator: /Users/dusanklinec/workspace/trezor-firmware/core/build/unix/micropython -O0 -X heapsize=20M  /Users/dusanklinec/workspace/trezor-firmware/core/src/main.py
+1575489820067653 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'bootscreen' at 104f0a740>
+1575489820088588 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 104f22d00>

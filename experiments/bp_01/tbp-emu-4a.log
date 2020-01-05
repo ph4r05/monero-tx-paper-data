@@ -1,0 +1,1260 @@
+./emu.sh
+Trezor^emu profile name: /var/tmp
+Trezor^emu profile directory: /var/tmp
+Trezor^emu log file: /var/tmp/trezor.log
+Trezor^emu UDP port: 21324
+Trezor^emu path: udp:127.0.0.1:21324
+Trezor^emu src: /Users/dusanklinec/workspace/trezor-firmware/core/src
+Starting emulator: /Users/dusanklinec/workspace/trezor-firmware/core/build/unix/micropython -O0 -X heapsize=20M  /Users/dusanklinec/workspace/trezor-firmware/core/src/main.py
+1575321712918188 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'bootscreen' at 103009640>
+1575321712939835 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 103021c60>
+1575321719248464 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'Initialize'>
+1575321719248648 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 1030242c0>
+1575321719248910 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 1030242c0>
+1575321719248992 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321719249028 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+1575321719348951 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'WipeDevice'>
+1575321719349677 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'wipe_device' at 102fcf580>
+1575321719349733 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <ButtonRequest>
+1575321719363976 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: <class 'ButtonAck'>
+1575321719380747 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 read: <class 'ButtonAck'>
+1575321719398318 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <class 'DebugLinkDecision'>
+1575321719398462 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 102fdd800>
+1575321719398493 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 102fdd800>
+1575321719435027 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: ()
+1575321719564207 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+1575321719583055 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 102fd74a0>
+1575321719595257 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+1575321719595307 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 103021c60>
+1575321719595436 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 102fd8ae0>
+1575321719780851 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'wipe_device' at 102fcf580>
+1575321719780888 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 102fd94e0>
+1575321720196035 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
+1575321720214754 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'Initialize'>
+1575321720214990 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 102fcf920>
+1575321720215202 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 102fcf920>
+1575321720215252 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321720215309 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+1575321720269485 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'LoadDevice'>
+1575321720297698 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'load_device' at 102feb380>
+1575321720298487 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <ButtonRequest>
+1575321720315005 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: <class 'ButtonAck'>
+1575321720348127 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 read: <class 'ButtonAck'>
+1575321720355616 [35mtrezor.wire[0m [32mDEBUG[0m 1:0 receive: <class 'DebugLinkDecision'>
+1575321720355866 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'dispatch_DebugLinkDecision' at 102ff3de0>
+1575321720355972 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'dispatch_DebugLinkDecision' at 102ff3de0>
+1575321720398417 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 expect: ()
+1575321720481716 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+1575321720497877 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object 'take' at 102feee20>
+1575321720511598 [35mtrezor.loop[0m [32mDEBUG[0m ui.Cancelled
+1575321720511638 [35mtrezor.workflow[0m [32mDEBUG[0m default closed: <generator object 'homescreen' at 102fd94e0>
+1575321720511747 [35mtrezor.loop[0m [32mDEBUG[0m finish: <generator object '__iter__' at 102ff0240>
+1575321720511889 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'load_device' at 102feb380>
+1575321720511922 [35mtrezor.workflow[0m [32mDEBUG[0m start default: <generator object 'homescreen' at 102fd79a0>
+1575321721082004 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Success>
+1575321721095478 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'Initialize'>
+1575321721096003 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'handle_Initialize' at 102fcef20>
+1575321721096339 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'handle_Initialize' at 102fcef20>
+1575321721096370 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321721096482 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <Features>
+1575321721149833 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321721157408 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 102feb380>
+1575321721157438 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321721171295 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -4128 Free: 20433120 Allocated: 295456
+mem: total=1681674, current=574254, peak=603598
+stack: 2320 out of 120000
+GC: total: 20728576, used: 296288, free: 20432288
+ No. of 1-blocks: 2248, 2-blocks: 432, max blk sz: 321, max free sz: 635908
+1575321721238636 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 70464 Free: 20362656 Allocated: 365920
+mem: total=2113950, current=658898, peak=916079
+stack: 2320 out of 120000
+GC: total: 20728576, used: 366848, free: 20361728
+ No. of 1-blocks: 2799, 2-blocks: 645, max blk sz: 321, max free sz: 627473
+1575321721251480 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20362656 Allocated: 365920
+mem: total=2114942, current=659658, peak=916079
+stack: 2320 out of 120000
+GC: total: 20728576, used: 366848, free: 20361728
+ No. of 1-blocks: 2799, 2-blocks: 645, max blk sz: 321, max free sz: 627473
+1575321721263535 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 0; 4 Diff: 96 Free: 20362560 Allocated: 366016
+mem: total=2116054, current=660522, peak=916079
+stack: 2320 out of 120000
+GC: total: 20728576, used: 367040, free: 20361536
+ No. of 1-blocks: 2804, 2-blocks: 645, max blk sz: 321, max free sz: 627473
+1575321721277280 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20362784 A: 365792, S: 2416
+1575321721334033 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 11, ... F: 20356032 A: 372544, S: 3600
+1575321721384907 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20354880 A: 373696, S: 3600
+1575321721392378 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 13, ... F: 20354336 A: 374240, S: 3600
+1575321721401171 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 14, ... F: 20352960 A: 375616, S: 3600
+1575321721425577 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 16, ... F: 20352224 A: 376352, S: 3600
+Phase1_lr, state: 0, off: 0, MN: 256
+1575321721435354 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20351264 A: 377312, S: 3904
+1575321721448401 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20350656 A: 377920, S: 3904
+1575321721463334 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20349344 A: 379232, S: 3904
+1575321721474223 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20349312 A: 379264, S: 3904
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321721489394 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20350752 A: 377824, S: 2416
+1575321721496456 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: 11968 Free: 20350592 Allocated: 377984
+mem: total=2344016, current=694836, peak=916079
+stack: 2320 out of 120000
+GC: total: 20728576, used: 378912, free: 20349664
+ No. of 1-blocks: 2916, 2-blocks: 690, max blk sz: 321, max free sz: 627473
+1575321721504072 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 102feb380>
+1575321721504131 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321721504194 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321721976514 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321721984478 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 10300fe00>
+1575321721984520 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321721994291 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -6048 Free: 20344832 Allocated: 383744
+mem: total=2432887, current=722923, peak=916079
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321722059196 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=2858524, current=801840, peak=1059265
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624921
+1575321722074049 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=2859516, current=802600, peak=1059265
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624921
+1575321722089468 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=2860628, current=803464, peak=1059265
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624921
+1575321722103240 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 32, MN: 256
+1575321722110742 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321722121656 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321722132175 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+1575321722140894 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287424 A: 441152, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321722155583 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288192 A: 440384, S: 2416
+1575321722162836 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7712 Free: 20288032 Allocated: 440544
+mem: total=2909054, current=824170, peak=1059265
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441472, free: 20287104
+ No. of 1-blocks: 3439, 2-blocks: 892, max blk sz: 321, max free sz: 624921
+1575321722168881 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 10300fe00>
+1575321722168919 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321722168958 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321722702698 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321722713743 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103025d60>
+1575321722713785 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321722727598 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344832 Allocated: 383744
+mem: total=2997289, current=852261, peak=1059265
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321722794110 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=3422942, current=931178, peak=1188635
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624918
+1575321722812016 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=3423934, current=931938, peak=1188635
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624918
+1575321722835602 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=3425046, current=932802, peak=1188635
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624918
+1575321722856185 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 64, MN: 256
+1575321722871175 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321722881342 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321722893025 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+1575321722909096 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287424 A: 441152, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321722928604 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288192 A: 440384, S: 2416
+1575321722938412 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7712 Free: 20288032 Allocated: 440544
+mem: total=3473472, current=953508, peak=1188635
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441472, free: 20287104
+ No. of 1-blocks: 3439, 2-blocks: 892, max blk sz: 321, max free sz: 624918
+1575321722943502 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103025d60>
+1575321722943537 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321722943587 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321723061120 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321723073803 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103026f00>
+1575321723073830 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321723084125 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344832 Allocated: 383744
+mem: total=3561707, current=981599, peak=1188635
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321723138587 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=3987216, current=1060516, peak=1317925
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624919
+1575321723152018 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=3988208, current=1061276, peak=1317925
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624919
+1575321723163443 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=3989320, current=1062140, peak=1317925
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624919
+1575321723176631 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 96, MN: 256
+1575321723185297 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321723194811 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321723204691 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+1575321723212726 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287424 A: 441152, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321723230791 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288192 A: 440384, S: 2416
+1575321723238820 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7712 Free: 20288032 Allocated: 440544
+mem: total=4037746, current=1082846, peak=1317925
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441472, free: 20287104
+ No. of 1-blocks: 3439, 2-blocks: 892, max blk sz: 321, max free sz: 624919
+1575321723244117 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103026f00>
+1575321723244140 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321723244171 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321723336895 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321723343980 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103024a20>
+1575321723344012 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321723356115 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344832 Allocated: 383744
+mem: total=4126077, current=1110937, peak=1317925
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321723457141 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=4551810, current=1189854, peak=1447343
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624919
+1575321723469580 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=4552802, current=1190614, peak=1447343
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624919
+1575321723481794 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=4553914, current=1191478, peak=1447343
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624919
+1575321723497653 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 128, MN: 256
+1575321723508672 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321723520273 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321723530516 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+1575321723541429 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287424 A: 441152, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321723556498 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288192 A: 440384, S: 2416
+1575321723563892 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7712 Free: 20288032 Allocated: 440544
+mem: total=4602341, current=1212185, peak=1447343
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441472, free: 20287104
+ No. of 1-blocks: 3439, 2-blocks: 892, max blk sz: 321, max free sz: 624919
+1575321723570634 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103024a20>
+1575321723570669 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321723570718 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321723674051 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321723681931 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103027b00>
+1575321723681961 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321723692058 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344832 Allocated: 383744
+mem: total=4690576, current=1240276, peak=1447343
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321723775521 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=5116293, current=1319193, peak=1576650
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624920
+1575321723788289 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=5117285, current=1319953, peak=1576650
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624920
+1575321723810117 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=5118397, current=1320817, peak=1576650
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624920
+1575321723829629 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 160, MN: 256
+1575321723844298 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321723860585 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321723882141 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+1575321723893509 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287424 A: 441152, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321723911528 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288192 A: 440384, S: 2416
+1575321723923222 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7712 Free: 20288032 Allocated: 440544
+mem: total=5166824, current=1341524, peak=1576650
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441472, free: 20287104
+ No. of 1-blocks: 3439, 2-blocks: 892, max blk sz: 321, max free sz: 624920
+1575321723931878 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103027b00>
+1575321723931913 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321723931959 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321724070730 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321724094846 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 1030286c0>
+1575321724095116 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321724178285 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344832 Allocated: 383744
+mem: total=5255155, current=1369615, peak=1576650
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321724461367 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=5680872, current=1448532, peak=1706021
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624915
+1575321724483655 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=5681864, current=1449292, peak=1706021
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624915
+1575321724505571 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=5682976, current=1450156, peak=1706021
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624915
+1575321724525377 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 192, MN: 256
+1575321724533606 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321724550206 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321724579743 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+1575321724598695 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287424 A: 441152, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321724615129 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288192 A: 440384, S: 2416
+1575321724624744 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7712 Free: 20288032 Allocated: 440544
+mem: total=5731403, current=1470863, peak=1706021
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441472, free: 20287104
+ No. of 1-blocks: 3439, 2-blocks: 892, max blk sz: 321, max free sz: 624915
+1575321724630647 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 1030286c0>
+1575321724630679 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321724630729 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321724735987 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321724743764 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103028460>
+1575321724743792 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321724757459 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344832 Allocated: 383744
+mem: total=5819782, current=1498954, peak=1706021
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384576, free: 20344000
+ No. of 1-blocks: 2991, 2-blocks: 713, max blk sz: 321, max free sz: 627473
+1575321724838147 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280416 Allocated: 448160
+mem: total=6245627, current=1577871, peak=1835424
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624914
+1575321724852279 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280416 Allocated: 448160
+mem: total=6246619, current=1578631, peak=1835424
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449088, free: 20279488
+ No. of 1-blocks: 3534, 2-blocks: 926, max blk sz: 321, max free sz: 624914
+1575321724870119 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280320 Allocated: 448256
+mem: total=6247731, current=1579495, peak=1835424
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449280, free: 20279296
+ No. of 1-blocks: 3539, 2-blocks: 926, max blk sz: 321, max free sz: 624914
+1575321724887763 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280544 A: 448032, S: 2416
+Phase1_lr, state: 0, off: 224, MN: 256
+1575321724896619 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20280128 A: 448448, S: 3712
+1575321724913022 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 3, ... F: 20288768 A: 439808, S: 3712
+1575321724929189 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 4, ... F: 20287456 A: 441120, S: 3712
+Moving to next state
+1575321724938006 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20287328 A: 441248, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1176
+1575321724954377 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288096 A: 440480, S: 2416
+1575321724964192 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -7616 Free: 20287936 Allocated: 440640
+mem: total=6296207, current=1600251, peak=1835424
+stack: 2320 out of 120000
+GC: total: 20728576, used: 441568, free: 20287008
+ No. of 1-blocks: 3440, 2-blocks: 893, max blk sz: 321, max free sz: 624914
+1575321724980539 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103028460>
+1575321724981149 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321724981438 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321725245406 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321725277179 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103027ea0>
+1575321725277237 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321725311138 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20344736 Allocated: 383840
+mem: total=6384442, current=1628342, peak=1835424
+stack: 2320 out of 120000
+GC: total: 20728576, used: 384672, free: 20343904
+ No. of 1-blocks: 2992, 2-blocks: 714, max blk sz: 321, max free sz: 627473
+1575321725446626 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20280320 Allocated: 448256
+mem: total=6810223, current=1707259, peak=1964796
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449184, free: 20279392
+ No. of 1-blocks: 3535, 2-blocks: 927, max blk sz: 321, max free sz: 624911
+1575321725500110 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20280320 Allocated: 448256
+mem: total=6811215, current=1708019, peak=1964796
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449184, free: 20279392
+ No. of 1-blocks: 3535, 2-blocks: 927, max blk sz: 321, max free sz: 624911
+1575321725558672 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20280224 Allocated: 448352
+mem: total=6812327, current=1708883, peak=1964796
+stack: 2320 out of 120000
+GC: total: 20728576, used: 449376, free: 20279200
+ No. of 1-blocks: 3540, 2-blocks: 927, max blk sz: 321, max free sz: 624911
+1575321725596088 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20280448 A: 448128, S: 2416
+phase1_post, state: 1, off: 0
+1575321725621823 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20280064 A: 448512, S: 3712
+1575321725639241 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 18, ... F: 20289856 A: 438720, S: 3712
+1575321725666419 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 19, ... F: 20289792 A: 438784, S: 3712
+MN: 256, nprime: 128
+1575321725695488 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 20, ... F: 20288672 A: 439904, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  l0 <KeyVEval object at 102fedc00>
+Unknown type:  r0 <KeyR0 object at 102fdadc0>
+Unknown type:  l1 <KeyVPrngMask object at 102fe0080>
+Unknown type:  r1 <KeyVEval object at 102fee320>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+!!!!!!!!!!!!!!!!Dump finished:  1632
+1575321725719666 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20288800 A: 439776, S: 2416
+1575321725727188 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8416 Free: 20288640 Allocated: 439936
+mem: total=6837258, current=1729198, peak=1964796
+stack: 2320 out of 120000
+GC: total: 20728576, used: 440864, free: 20287712
+ No. of 1-blocks: 3458, 2-blocks: 893, max blk sz: 321, max free sz: 624911
+1575321725732626 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103027ea0>
+1575321725732674 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321725732715 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321726098734 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321726143586 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103029240>
+1575321726143719 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321726163641 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -66176 Free: 20342912 Allocated: 385664
+mem: total=6927279, current=1758747, peak=1964796
+stack: 2320 out of 120000
+GC: total: 20728576, used: 386496, free: 20342080
+ No. of 1-blocks: 3023, 2-blocks: 715, max blk sz: 321, max free sz: 627473
+1575321726295528 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20278496 Allocated: 450080
+mem: total=7352948, current=1837664, peak=2095169
+stack: 2320 out of 120000
+GC: total: 20728576, used: 451008, free: 20277568
+ No. of 1-blocks: 3566, 2-blocks: 928, max blk sz: 321, max free sz: 624860
+1575321726328958 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20278496 Allocated: 450080
+mem: total=7353940, current=1838424, peak=2095169
+stack: 2320 out of 120000
+GC: total: 20728576, used: 451008, free: 20277568
+ No. of 1-blocks: 3566, 2-blocks: 928, max blk sz: 321, max free sz: 624860
+1575321726363340 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20278400 Allocated: 450176
+mem: total=7355052, current=1839288, peak=2095169
+stack: 2320 out of 120000
+GC: total: 20728576, used: 451200, free: 20277376
+ No. of 1-blocks: 3571, 2-blocks: 928, max blk sz: 321, max free sz: 624860
+1575321726394275 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20278624 A: 449952, S: 2416
+_phase2_loop_offdot, state: 2, off: 0, round: 0, nprime: 128
+_phase2_loop_body_r0init, state: 2, off: 0
+1575321726427356 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 34, ... F: 20276576 A: 452000, S: 4112
+1575321726458016 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20286624 A: 441952, S: 3712
+1575321726470653 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285152 A: 443424, S: 3712
+1575321726484259 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 11, ... F: 20285120 A: 443456, S: 3712
+1575321726499697 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20286208 A: 442368, S: 3712
+1575321726515830 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 13, ... F: 20285664 A: 442912, S: 3712
+1575321726525680 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 14, ... F: 20284960 A: 443616, S: 3712
+Fold now
+1575321726534331 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20282432 A: 446144, S: 4016
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321726554906 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285248 A: 443328, S: 2416
+1575321726567729 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -6688 Free: 20285088 Allocated: 443488
+mem: total=7390673, current=1869557, peak=2095169
+stack: 2320 out of 120000
+GC: total: 20728576, used: 444416, free: 20284160
+ No. of 1-blocks: 3519, 2-blocks: 907, max blk sz: 321, max free sz: 624860
+1575321726579908 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103029240>
+1575321726579998 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321726580093 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321726683301 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321726693728 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103028380>
+1575321726693763 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321726708016 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68128 Free: 20341344 Allocated: 387232
+mem: total=7484172, current=1906416, peak=2095169
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321726779598 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=7909553, current=1985333, peak=2242694
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321726792809 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=7910545, current=1986093, peak=2242694
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321726807404 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=7911657, current=1986957, peak=2242694
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321726820167 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 3, off: 0, round: 0, nprime: 128, btch: 32
+1575321726829954 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321726848343 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321726861087 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321726871510 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284576 A: 444000, S: 3712
+1575321726892199 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321726906283 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321726913736 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=7938646, current=2009794, peak=2242694
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624817
+1575321726919432 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103028380>
+1575321726920152 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321726920225 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321726970492 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321726981958 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103028f80>
+1575321726981984 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321726992996 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=8020337, current=2034365, peak=2242694
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321727050423 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=8445846, current=2113282, peak=2370659
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624813
+1575321727063052 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=8446838, current=2114042, peak=2370659
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624813
+1575321727077242 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=8447950, current=2114906, peak=2370659
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624813
+1575321727091949 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 3, off: 32, round: 0, nprime: 128, btch: 32
+1575321727098782 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321727107685 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321727116935 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321727127369 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284576 A: 444000, S: 3712
+1575321727146693 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321727160897 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321727168360 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=8474940, current=2137744, peak=2370659
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624813
+1575321727175876 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103028f80>
+1575321727175906 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321727175991 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321727228075 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321727237602 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103027d40>
+1575321727237629 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321727247846 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=8556791, current=2162315, peak=2370659
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321727301144 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=8982188, current=2241232, peak=2498593
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321727315410 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=8983180, current=2241992, peak=2498593
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321727342024 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=8984292, current=2242856, peak=2498593
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321727400484 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 3, off: 64, round: 0, nprime: 128, btch: 32
+1575321727429190 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321727446196 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321727477478 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321727498220 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284576 A: 444000, S: 3712
+1575321727537727 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321727555255 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321727563789 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=9011282, current=2265694, peak=2498593
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624817
+1575321727569991 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103027d40>
+1575321727570337 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321727570509 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321727622776 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321727633172 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 1030288e0>
+1575321727633196 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321727643379 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=9093037, current=2290265, peak=2498593
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321727697622 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=9518402, current=2369182, peak=2626463
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624818
+1575321727710806 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=9519394, current=2369942, peak=2626463
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624818
+1575321727725717 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=9520506, current=2370806, peak=2626463
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624818
+1575321727739700 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 3, off: 96, round: 0, nprime: 128, btch: 32
+1575321727747169 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321727755163 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321727764433 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321727772362 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284576 A: 444000, S: 3712
+1575321727793065 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Moved to state 4, npr 128
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321727807591 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321727815432 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=9547618, current=2393734, peak=2626463
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624818
+1575321727821531 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 1030288e0>
+1575321727821572 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321727821623 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321727998446 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321728015880 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103028fa0>
+1575321728015925 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321728083343 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=9629421, current=2418305, peak=2626463
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321728182206 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=10054866, current=2497222, peak=2754567
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624818
+1575321728209983 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=10055858, current=2497982, peak=2754567
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624818
+1575321728227635 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=10056970, current=2498846, peak=2754567
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624818
+1575321728246542 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 4, off: 0, round: 0, nprime: 128, btch: 32
+1575321728256511 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321728265997 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321728280297 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321728288756 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284512 A: 444064, S: 3712
+1575321728327454 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321728343711 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321728355984 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=10084023, current=2521747, peak=2754567
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624818
+1575321728364066 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103028fa0>
+1575321728364193 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321728364263 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321728417055 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321728428498 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 1030277e0>
+1575321728428545 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321728443760 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=10165730, current=2546318, peak=2754567
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321728563791 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=10591287, current=2625235, peak=2882612
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624813
+1575321728581727 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=10592279, current=2625995, peak=2882612
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624813
+1575321728602620 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=10593391, current=2626859, peak=2882612
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624813
+1575321728628118 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 4, off: 32, round: 0, nprime: 128, btch: 32
+1575321728649866 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321728666669 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286240 A: 442336, S: 3712
+1575321728697776 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20284992 A: 443584, S: 3712
+1575321728717760 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284448 A: 444128, S: 3712
+1575321728761249 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284800 A: 443776, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321728777652 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321728784865 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=10620445, current=2649761, peak=2882612
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624813
+1575321728792094 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 1030277e0>
+1575321728792167 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321728792230 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321728871124 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321728881735 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103028f00>
+1575321728881760 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321728896283 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=10702168, current=2674332, peak=2882612
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321728971280 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=11127741, current=2753249, peak=3010626
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624815
+1575321728997144 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=11128733, current=2754009, peak=3010626
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624815
+1575321729055670 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=11129845, current=2754873, peak=3010626
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624815
+1575321729090736 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 4, off: 64, round: 0, nprime: 128, btch: 32
+1575321729111490 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321729122245 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321729142637 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321729153339 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284512 A: 444064, S: 3712
+1575321729213768 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Unknown type:  gc_fnc <function>
+Unknown type:  Gprec2 <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Hprec2 <KeyVPrecomp object at 102fec300>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+Unknown type:  HprimeL <KeyVEval object at 102fd1700>
+Unknown type:  HprimeR <KeyVEval object at 102fd31e0>
+!!!!!!!!!!!!!!!!Dump finished:  2240
+1575321729230089 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321729242691 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=11156899, current=2777775, peak=3010626
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624815
+1575321729247894 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103028f00>
+1575321729247925 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321729247968 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321729308349 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321729316207 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103027460>
+1575321729316291 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321729328414 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67648 Free: 20341344 Allocated: 387232
+mem: total=11238622, current=2802346, peak=3010626
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388064, free: 20340512
+ No. of 1-blocks: 3030, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321729403612 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276928 Allocated: 451648
+mem: total=11664163, current=2881263, peak=3138672
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321729418698 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276928 Allocated: 451648
+mem: total=11665155, current=2882023, peak=3138672
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452576, free: 20276000
+ No. of 1-blocks: 3573, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321729432610 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276832 Allocated: 451744
+mem: total=11666267, current=2882887, peak=3138672
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452768, free: 20275808
+ No. of 1-blocks: 3578, 2-blocks: 940, max blk sz: 321, max free sz: 624817
+1575321729448280 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20277056 A: 451520, S: 2416
+phase2_loop_fold, state: 4, off: 96, round: 0, nprime: 128, btch: 32
+1575321729457713 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276512 A: 452064, S: 3712
+1575321729465300 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20286304 A: 442272, S: 3712
+1575321729475641 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20285056 A: 443520, S: 3712
+1575321729482539 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20284512 A: 444064, S: 3712
+1575321729519947 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20284864 A: 443712, S: 3712
+Moved to state 5, npr 128
+1575321729528808 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 16, ... F: 20284736 A: 443840, S: 3712
+Moved to state 2
+Unknown type:  gc_fnc <function>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+!!!!!!!!!!!!!!!!Dump finished:  1984
+1575321729543003 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285792 A: 442784, S: 2416
+1575321729549891 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8800 Free: 20285632 Allocated: 442944
+mem: total=11693086, current=2905346, peak=3138672
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443872, free: 20284704
+ No. of 1-blocks: 3476, 2-blocks: 906, max blk sz: 321, max free sz: 624817
+1575321729561668 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103027460>
+1575321729561738 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321729561820 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321729706625 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321729722912 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103029ae0>
+1575321729722950 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321729738709 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67264 Free: 20340928 Allocated: 387648
+mem: total=11784987, current=2937623, peak=3138672
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388480, free: 20340096
+ No. of 1-blocks: 3041, 2-blocks: 728, max blk sz: 321, max free sz: 627473
+1575321729803717 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276512 Allocated: 452064
+mem: total=12210752, current=3016540, peak=3274077
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452992, free: 20275584
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624798
+1575321729817844 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276512 Allocated: 452064
+mem: total=12211744, current=3017300, peak=3274077
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452992, free: 20275584
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624798
+1575321729832589 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276416 Allocated: 452160
+mem: total=12212856, current=3018164, peak=3274077
+stack: 2320 out of 120000
+GC: total: 20728576, used: 453184, free: 20275392
+ No. of 1-blocks: 3589, 2-blocks: 941, max blk sz: 321, max free sz: 624798
+1575321729847315 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20276640 A: 451936, S: 2416
+_phase2_loop_offdot, state: 2, off: 0, round: 1, nprime: 64
+1575321729857316 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276224 A: 452352, S: 3712
+1575321729864440 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20284608 A: 443968, S: 3712
+1575321729873241 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 11, ... F: 20284704 A: 443872, S: 3712
+1575321729880981 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20285472 A: 443104, S: 3712
+1575321729892434 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 13, ... F: 20284928 A: 443648, S: 3712
+1575321729899714 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 14, ... F: 20284928 A: 443648, S: 3712
+fold offload
+1575321729909162 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20282240 A: 446336, S: 4016
+Unknown type:  gc_fnc <function>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+!!!!!!!!!!!!!!!!Dump finished:  1984
+1575321729926353 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20285248 A: 443328, S: 2416
+1575321729933364 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8672 Free: 20285088 Allocated: 443488
+mem: total=12243838, current=3044642, peak=3274077
+stack: 2320 out of 120000
+GC: total: 20728576, used: 444416, free: 20284160
+ No. of 1-blocks: 3519, 2-blocks: 907, max blk sz: 321, max free sz: 624798
+1575321729939645 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103029ae0>
+1575321729939728 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321729939824 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321730045750 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321730063386 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103029760>
+1575321730063464 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321730077870 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -67744 Free: 20340928 Allocated: 387648
+mem: total=12347123, current=3089207, peak=3274077
+stack: 2320 out of 120000
+GC: total: 20728576, used: 388480, free: 20340096
+ No. of 1-blocks: 3041, 2-blocks: 728, max blk sz: 321, max free sz: 627473
+1575321730130703 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20276512 Allocated: 452064
+mem: total=12772840, current=3168124, peak=3425581
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452992, free: 20275584
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624794
+1575321730143212 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20276512 Allocated: 452064
+mem: total=12773832, current=3168884, peak=3425581
+stack: 2320 out of 120000
+GC: total: 20728576, used: 452992, free: 20275584
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624794
+1575321730157702 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20276416 Allocated: 452160
+mem: total=12774944, current=3169748, peak=3425581
+stack: 2320 out of 120000
+GC: total: 20728576, used: 453184, free: 20275392
+ No. of 1-blocks: 3589, 2-blocks: 941, max blk sz: 321, max free sz: 624794
+1575321730169434 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20276640 A: 451936, S: 2416
+_phase2_loop_offdot, state: 2, off: 0, round: 2, nprime: 32
+1575321730177123 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20276224 A: 452352, S: 3712
+1575321730183945 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20284608 A: 443968, S: 3712
+1575321730196776 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 11, ... F: 20284704 A: 443872, S: 3712
+1575321730205529 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20285472 A: 443104, S: 3712
+1575321730213409 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 13, ... F: 20284928 A: 443648, S: 3712
+1575321730222522 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 14, ... F: 20284928 A: 443648, S: 3712
+Off2, fold anyway - threshold reached
+Unknown type:  gc_fnc <function>
+Unknown type:  Xprime[0] <KeyVPrecomp object at 102feb5a0>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+!!!!!!!!!!!!!!!!Dump finished:  1984
+1575321730235814 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20286432 A: 442144, S: 2416
+1575321730243487 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -9856 Free: 20286272 Allocated: 442304
+mem: total=12802115, current=3192767, peak=3425581
+stack: 2320 out of 120000
+GC: total: 20728576, used: 443232, free: 20285344
+ No. of 1-blocks: 3486, 2-blocks: 907, max blk sz: 321, max free sz: 624794
+1575321730248168 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103029760>
+1575321730248194 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321730248231 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321730257454 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321730347302 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 10302b180>
+1575321730347468 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321730357629 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -64864 Free: 20339200 Allocated: 389376
+mem: total=12899876, current=3230400, peak=3425581
+stack: 2320 out of 120000
+GC: total: 20728576, used: 390208, free: 20338368
+ No. of 1-blocks: 3031, 2-blocks: 728, max blk sz: 321, max free sz: 627473
+1575321730404829 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20274784 Allocated: 453792
+mem: total=13325465, current=3309317, peak=3566790
+stack: 2320 out of 120000
+GC: total: 20728576, used: 454720, free: 20273856
+ No. of 1-blocks: 3574, 2-blocks: 941, max blk sz: 321, max free sz: 624740
+1575321730416791 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20274784 Allocated: 453792
+mem: total=13326457, current=3310077, peak=3566790
+stack: 2320 out of 120000
+GC: total: 20728576, used: 454720, free: 20273856
+ No. of 1-blocks: 3574, 2-blocks: 941, max blk sz: 321, max free sz: 624740
+1575321730431464 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20274688 Allocated: 453888
+mem: total=13327569, current=3310941, peak=3566790
+stack: 2320 out of 120000
+GC: total: 20728576, used: 454912, free: 20273664
+ No. of 1-blocks: 3579, 2-blocks: 941, max blk sz: 321, max free sz: 624740
+1575321730444117 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20274912 A: 453664, S: 2416
+phase2_loop_fold, state: 3, off: 0, round: 2, nprime: 32, btch: 32
+1575321730451092 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20274368 A: 454208, S: 3712
+1575321730459021 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20283872 A: 444704, S: 3712
+1575321730468385 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20282496 A: 446080, S: 3712
+1575321730475935 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20281984 A: 446592, S: 3712
+1575321730493712 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20282208 A: 446368, S: 3712
+Moved to state 4, npr 32
+Unknown type:  gc_fnc <function>
+Unknown type:  Xprime[1] <KeyVEval object at 102fd1700>
+!!!!!!!!!!!!!!!!Dump finished:  3008
+1575321730513996 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20283392 A: 445184, S: 2416
+1575321730524072 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8544 Free: 20283232 Allocated: 445344
+mem: total=13354262, current=3333074, peak=3566790
+stack: 2320 out of 120000
+GC: total: 20728576, used: 446272, free: 20282304
+ No. of 1-blocks: 3481, 2-blocks: 907, max blk sz: 321, max free sz: 624740
+1575321730530055 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 10302b180>
+1575321730530093 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321730530139 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321730537998 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321730623743 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 10302bd80>
+1575321730623895 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321730634100 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -66560 Free: 20337888 Allocated: 390688
+mem: total=13452023, current=3370707, peak=3566790
+stack: 2320 out of 120000
+GC: total: 20728576, used: 391520, free: 20337056
+ No. of 1-blocks: 3036, 2-blocks: 728, max blk sz: 321, max free sz: 627473
+1575321730686783 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20273472 Allocated: 455104
+mem: total=13877676, current=3449624, peak=3707081
+stack: 2320 out of 120000
+GC: total: 20728576, used: 456032, free: 20272544
+ No. of 1-blocks: 3579, 2-blocks: 941, max blk sz: 321, max free sz: 624704
+1575321730699950 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20273472 Allocated: 455104
+mem: total=13878668, current=3450384, peak=3707081
+stack: 2320 out of 120000
+GC: total: 20728576, used: 456032, free: 20272544
+ No. of 1-blocks: 3579, 2-blocks: 941, max blk sz: 321, max free sz: 624704
+1575321730713274 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20273376 Allocated: 455200
+mem: total=13879780, current=3451248, peak=3707081
+stack: 2320 out of 120000
+GC: total: 20728576, used: 456224, free: 20272352
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624704
+1575321730725416 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20273600 A: 454976, S: 2416
+phase2_loop_fold, state: 4, off: 0, round: 2, nprime: 32, btch: 32
+1575321730732290 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20273056 A: 455520, S: 3712
+1575321730741295 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20282560 A: 446016, S: 3712
+1575321730751561 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20281184 A: 447392, S: 3712
+1575321730759496 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20280608 A: 447968, S: 3712
+1575321730773694 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20280896 A: 447680, S: 3712
+Moved to state 5, npr 32
+Unknown type:  gc_fnc <function>
+!!!!!!!!!!!!!!!!Dump finished:  4032
+1575321730787849 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20282080 A: 446496, S: 2416
+1575321730795331 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8544 Free: 20281920 Allocated: 446656
+mem: total=13906441, current=3473349, peak=3707081
+stack: 2320 out of 120000
+GC: total: 20728576, used: 447584, free: 20280992
+ No. of 1-blocks: 3486, 2-blocks: 907, max blk sz: 321, max free sz: 624704
+1575321730800062 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 10302bd80>
+1575321730800089 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321730800126 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321730813369 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321730902829 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 10302c260>
+1575321730903464 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321730913562 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -66560 Free: 20336576 Allocated: 392000
+mem: total=14004234, current=3510982, peak=3707081
+stack: 2320 out of 120000
+GC: total: 20728576, used: 392832, free: 20335744
+ No. of 1-blocks: 3041, 2-blocks: 728, max blk sz: 321, max free sz: 627473
+1575321730977489 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20272160 Allocated: 456416
+mem: total=14429855, current=3589899, peak=3847372
+stack: 2320 out of 120000
+GC: total: 20728576, used: 457344, free: 20271232
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624664
+1575321730990366 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20272160 Allocated: 456416
+mem: total=14430847, current=3590659, peak=3847372
+stack: 2320 out of 120000
+GC: total: 20728576, used: 457344, free: 20271232
+ No. of 1-blocks: 3584, 2-blocks: 941, max blk sz: 321, max free sz: 624664
+1575321731002544 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20272064 Allocated: 456512
+mem: total=14431959, current=3591523, peak=3847372
+stack: 2320 out of 120000
+GC: total: 20728576, used: 457536, free: 20271040
+ No. of 1-blocks: 3589, 2-blocks: 941, max blk sz: 321, max free sz: 624664
+1575321731016375 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20272288 A: 456288, S: 2416
+phase2_loop_fold, state: 5, off: 0, round: 2, nprime: 32, btch: 32
+1575321731026260 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20271744 A: 456832, S: 3712
+1575321731033073 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20281248 A: 447328, S: 3712
+1575321731043206 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20279872 A: 448704, S: 3712
+1575321731050320 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20279296 A: 449280, S: 3712
+1575321731061325 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20279584 A: 448992, S: 3712
+Moved to state 6, npr 32
+Unknown type:  gc_fnc <function>
+!!!!!!!!!!!!!!!!Dump finished:  5056
+1575321731075028 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20280768 A: 447808, S: 2416
+1575321731082087 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8544 Free: 20280608 Allocated: 447968
+mem: total=14458732, current=3613736, peak=3847372
+stack: 2320 out of 120000
+GC: total: 20728576, used: 448896, free: 20279680
+ No. of 1-blocks: 3491, 2-blocks: 907, max blk sz: 321, max free sz: 624664
+1575321731086757 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 10302c260>
+1575321731086797 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321731086854 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321731094852 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321731184936 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 10302c7c0>
+1575321731185114 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321731195300 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -66560 Free: 20335264 Allocated: 393312
+mem: total=14556573, current=3651369, peak=3847372
+stack: 2320 out of 120000
+GC: total: 20728576, used: 394144, free: 20334432
+ No. of 1-blocks: 3046, 2-blocks: 728, max blk sz: 321, max free sz: 627473
+1575321731244059 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20270848 Allocated: 457728
+mem: total=14982242, current=3730286, peak=3987775
+stack: 2320 out of 120000
+GC: total: 20728576, used: 458656, free: 20269920
+ No. of 1-blocks: 3589, 2-blocks: 941, max blk sz: 321, max free sz: 624620
+1575321731259138 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20270848 Allocated: 457728
+mem: total=14983234, current=3731046, peak=3987775
+stack: 2320 out of 120000
+GC: total: 20728576, used: 458656, free: 20269920
+ No. of 1-blocks: 3589, 2-blocks: 941, max blk sz: 321, max free sz: 624620
+1575321731270718 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20270752 Allocated: 457824
+mem: total=14984346, current=3731910, peak=3987775
+stack: 2320 out of 120000
+GC: total: 20728576, used: 458848, free: 20269728
+ No. of 1-blocks: 3594, 2-blocks: 941, max blk sz: 321, max free sz: 624620
+1575321731283556 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20270976 A: 457600, S: 2416
+phase2_loop_fold, state: 6, off: 0, round: 2, nprime: 32, btch: 32
+1575321731291780 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 2, ... F: 20270432 A: 458144, S: 3712
+1575321731298573 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 5, ... F: 20279936 A: 448640, S: 3712
+1575321731309294 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 10, ... F: 20278560 A: 450016, S: 3712
+1575321731316553 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 12, ... F: 20278048 A: 450528, S: 3712
+1575321731327082 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 15, ... F: 20278272 A: 450304, S: 3712
+Moved to state 7, npr 32
+1575321731333891 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 16, ... F: 20278144 A: 450432, S: 3712
+Moved to state 10
+Unknown type:  gc_fnc <function>
+!!!!!!!!!!!!!!!!Dump finished:  6080
+1575321731347788 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20279456 A: 449120, S: 2416
+1575321731357055 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -8544 Free: 20279296 Allocated: 449280
+mem: total=15011858, current=3754686, peak=3987775
+stack: 2320 out of 120000
+GC: total: 20728576, used: 450208, free: 20278368
+ No. of 1-blocks: 3496, 2-blocks: 907, max blk sz: 321, max free sz: 624620
+1575321731362033 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 10302c7c0>
+1575321731362064 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321731362107 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>
+1575321731368653 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 receive: <class 'DebugMoneroDiagRequest'>
+1575321731377301 [35mtrezor.workflow[0m [32mDEBUG[0m start: <generator object 'diag' at 103027940>
+1575321731377326 [35mapps.monero.diag[0m [32mDEBUG[0m ----diagnostics
+1575321731386617 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 0  Diff: -68672 Free: 20336096 Allocated: 392480
+mem: total=15086941, current=3775577, peak=3987775
+stack: 2320 out of 120000
+GC: total: 20728576, used: 393312, free: 20335264
+ No. of 1-blocks: 3050, 2-blocks: 727, max blk sz: 321, max free sz: 627473
+1575321731437730 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 1 BP Imported Diff: 64416 Free: 20271680 Allocated: 456896
+mem: total=15512578, current=3854494, peak=4111903
+stack: 2320 out of 120000
+GC: total: 20728576, used: 457824, free: 20270752
+ No. of 1-blocks: 3593, 2-blocks: 940, max blk sz: 321, max free sz: 624647
+1575321731449548 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 2 Crypto Imported Diff: 0 Free: 20271680 Allocated: 456896
+mem: total=15513570, current=3855254, peak=4111903
+stack: 2320 out of 120000
+GC: total: 20728576, used: 457824, free: 20270752
+ No. of 1-blocks: 3593, 2-blocks: 940, max blk sz: 321, max free sz: 624647
+1575321731462345 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 3 +++BP START: 1; 2 Diff: 96 Free: 20271584 Allocated: 456992
+mem: total=15514682, current=3856118, peak=4111903
+stack: 2320 out of 120000
+GC: total: 20728576, used: 458016, free: 20270560
+ No. of 1-blocks: 3598, 2-blocks: 940, max blk sz: 321, max free sz: 624647
+1575321731475202 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP START, ... F: 20271808 A: 456768, S: 2416
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 4, r: 3, nprime: 16
+1575321731482088 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20270976 A: 457600, S: 4096
+1575321731494446 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 23, ... F: 20281248 A: 447328, S: 4096
+1575321731509137 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 24, ... F: 20281056 A: 447520, S: 4096
+1575321731522398 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 25, ... F: 20281056 A: 447520, S: 4096
+1575321731529522 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 26, ... F: 20281376 A: 447200, S: 4096
+1575321731542407 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 27, ... F: 20280832 A: 447744, S: 4096
+1575321731555184 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 28, ... F: 20281344 A: 447232, S: 4096
+1575321731569766 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 30, ... F: 20281856 A: 446720, S: 4096
+1575321731584206 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 31, ... F: 20282368 A: 446208, S: 4096
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 4, r: 4, nprime: 8
+1575321731591817 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20283136 A: 445440, S: 4096
+1575321731604490 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 23, ... F: 20283296 A: 445280, S: 4096
+1575321731615607 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 24, ... F: 20283104 A: 445472, S: 4096
+1575321731627005 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 25, ... F: 20283104 A: 445472, S: 4096
+1575321731634507 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 26, ... F: 20283424 A: 445152, S: 4096
+1575321731647572 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 27, ... F: 20283136 A: 445440, S: 4096
+1575321731660144 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 28, ... F: 20283392 A: 445184, S: 4096
+1575321731678211 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 30, ... F: 20283648 A: 444928, S: 4096
+1575321731692764 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 31, ... F: 20283904 A: 444672, S: 4096
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 4, r: 5, nprime: 4
+1575321731701361 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20284160 A: 444416, S: 4096
+1575321731716610 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 23, ... F: 20284320 A: 444256, S: 4096
+1575321731730666 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 24, ... F: 20284128 A: 444448, S: 4096
+1575321731745336 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 25, ... F: 20284128 A: 444448, S: 4096
+1575321731752446 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 26, ... F: 20284448 A: 444128, S: 4096
+1575321731765088 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 27, ... F: 20284288 A: 444288, S: 4096
+1575321731777293 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 28, ... F: 20284416 A: 444160, S: 4096
+1575321731791090 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 30, ... F: 20284544 A: 444032, S: 4096
+1575321731803992 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 31, ... F: 20284672 A: 443904, S: 4096
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 4, r: 6, nprime: 2
+1575321731811450 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20284672 A: 443904, S: 4096
+1575321731824222 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 23, ... F: 20284832 A: 443744, S: 4096
+1575321731834517 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 24, ... F: 20284640 A: 443936, S: 4096
+1575321731844809 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 25, ... F: 20284640 A: 443936, S: 4096
+1575321731851602 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 26, ... F: 20284960 A: 443616, S: 4096
+1575321731867101 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 27, ... F: 20284864 A: 443712, S: 4096
+1575321731879918 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 28, ... F: 20284928 A: 443648, S: 4096
+1575321731893174 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 30, ... F: 20284992 A: 443584, S: 4096
+1575321731906713 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 31, ... F: 20285056 A: 443520, S: 4096
+_phase2_loop_body, state: 10, off: 0
+wloop: M: 4, r: 7, nprime: 1
+1575321731913963 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 22, ... F: 20284928 A: 443648, S: 4096
+1575321731926934 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 23, ... F: 20285088 A: 443488, S: 4096
+1575321731937421 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 24, ... F: 20284896 A: 443680, S: 4096
+1575321731947943 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 25, ... F: 20284896 A: 443680, S: 4096
+1575321731956186 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 26, ... F: 20285216 A: 443360, S: 4096
+1575321731968281 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 27, ... F: 20285152 A: 443424, S: 4096
+1575321731981757 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 28, ... F: 20285184 A: 443392, S: 4096
+1575321731993819 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 30, ... F: 20285216 A: 443360, S: 4096
+1575321732006146 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace 31, ... F: 20285248 A: 443328, S: 4096
+Unknown type:  gc_fnc <function>
+!!!!!!!!!!!!!!!!Dump finished:  2272
+1575321732025407 [35mapps.monero.diag[0m [32mDEBUG[0m Log trace BP STEP, ... F: 20274976 A: 453600, S: 2416
+1575321732032445 [35mapps.monero.diag[0m [32mDEBUG[0m ======= 4 +++BP STEP Diff: -3232 Free: 20274816 Allocated: 453760
+mem: total=15645957, current=3927141, peak=4111903
+stack: 2320 out of 120000
+GC: total: 20728576, used: 454688, free: 20273888
+ No. of 1-blocks: 3605, 2-blocks: 926, max blk sz: 321, max free sz: 624647
+1575321732039497 [35mtrezor.workflow[0m [32mDEBUG[0m close: <generator object 'diag' at 103027940>
+1575321732039530 [35mtrezor.workflow[0m [32mDEBUG[0m default already started
+1575321732039578 [35mtrezor.wire[0m [32mDEBUG[0m 0:0 write: <DebugMoneroDiagAck>

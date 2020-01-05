@@ -1,0 +1,192 @@
+231171176 trezor.wire DEBUG 0:0 receive: <class 'Initialize'>
+231186176 trezor.workflow DEBUG start: <generator object 'handle_Initialize' at 2001bf50>
+231215176 trezor.workflow DEBUG close: <generator object 'handle_Initialize' at 2001bf50>
+231224176 trezor.workflow DEBUG default already started
+231233176 trezor.wire DEBUG 0:0 write: <Features>
+231347176 trezor.wire DEBUG 0:0 receive: <class 'Ping'>
+231365176 trezor.workflow DEBUG start: <generator object 'handle_Ping' at 200181d0>
+231374176 trezor.workflow DEBUG close: <generator object 'handle_Ping' at 200181d0>
+231383176 trezor.workflow DEBUG default already started
+231393176 trezor.wire DEBUG 0:0 write: <Success>
+231450176 trezor.wire DEBUG 0:0 receive: <class 'MoneroGetWatchKey'>
+231552176 trezor.workflow DEBUG start: <generator object 'keychain_workflow' at 2001a680>
+231616176 trezor.workflow DEBUG close default
+231626176 trezor.workflow DEBUG default closed: <generator object 'homescreen' at 2000ad30>
+233150176 trezor.wire DEBUG 0:0 write: <ButtonRequest>
+233178176 trezor.wire DEBUG 0:0 expect: <class 'ButtonAck'>
+233188176 trezor.wire DEBUG 0:0 read: <class 'ButtonAck'>
+233201176 trezor.loop DEBUG finish: <generator object 'homescreen' at 2000ad30>
+233213176 trezor.wire DEBUG 0:0 expect: ()
+234886176 trezor.loop DEBUG ui.Result: <object>
+234897176 trezor.loop DEBUG finish: <generator object '__iter__' at 2001e550>
+235004176 trezor.workflow DEBUG close: <generator object 'keychain_workflow' at 2001a680>
+235013176 trezor.workflow DEBUG start default: <generator object 'homescreen' at 20020740>
+235477176 trezor.wire DEBUG 0:0 write: <MoneroWatchKey>
+267573176 trezor.wire DEBUG 0:0 receive: <class 'DebugMoneroDiagRequest'>
+267616176 trezor.workflow DEBUG start: <generator object 'diag' at 20019360>
+267627176 apps.monero.diag DEBUG ----diagnostics
+267673176 apps.monero.diag DEBUG ======= 0  Diff: -9056 Free: 79440 Allocated: 83632
+stack: 1464 out of 15360
+GC: total: 163072, used: 84192, free: 78880
+No. of 1-blocks: 1711, 2-blocks: 266, max blk sz: 112, max free sz: 2857
+267782176 apps.monero.diag DEBUG ======= 1 BP Imported Diff: 11568 Free: 67872 Allocated: 95200
+stack: 1464 out of 15360
+GC: total: 163072, used: 95824, free: 67248
+No. of 1-blocks: 1896, 2-blocks: 348, max blk sz: 112, max free sz: 2857
+267846176 apps.monero.diag DEBUG ======= 2 Crypto Imported Diff: 0 Free: 67872 Allocated: 95200
+stack: 1464 out of 15360
+GC: total: 163072, used: 95792, free: 67280
+No. of 1-blocks: 1894, 2-blocks: 348, max blk sz: 112, max free sz: 2857
+267915176 apps.monero.diag DEBUG ======= 3 BP pre input Diff: 3008 Free: 64864 Allocated: 98208
+stack: 1464 out of 15360
+GC: total: 163072, used: 98832, free: 64240
+No. of 1-blocks: 1917, 2-blocks: 351, max blk sz: 112, max free sz: 2857
+268097176 apps.monero.diag DEBUG Log trace 10, ... F: 63280 A: 99792, S: 1984
+273284176 apps.monero.diag DEBUG Log trace 11, ... F: 62512 A: 100560, S: 2336
+279678176 apps.monero.diag DEBUG Log trace 12, ... F: 61744 A: 101328, S: 2336
+279710176 apps.monero.diag DEBUG Log trace 13, ... F: 61408 A: 101664, S: 2336
+279741176 apps.monero.diag DEBUG Log trace 14, ... F: 60560 A: 102512, S: 2336
+280688176 apps.monero.diag DEBUG Log trace 16, ... F: 60000 A: 103072, S: 2336
+281600176 apps.monero.diag DEBUG Log trace 17, ... F: 43248 A: 119824, S: 2336
+phase1_post, state: 0, off: 0
+281634176 apps.monero.diag DEBUG Log trace 10, ... F: 44720 A: 118352, S: 2512
+281670176 apps.monero.diag DEBUG Log trace 18, ... F: 44736 A: 118336, S: 2512
+281701176 apps.monero.diag DEBUG Log trace 19, ... F: 44688 A: 118384, S: 2512
+MN: 256, nprime: 128
+281763176 apps.monero.diag DEBUG Log trace 20, ... F: 43824 A: 119248, S: 2512
+281794176 apps.monero.diag DEBUG Log trace 20, ... F: 43984 A: 119088, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 0, nprime: 128
+_phase2_loop_body_r0init, state: 20, off: 0
+281863176 apps.monero.diag DEBUG Log trace 34, ... F: 42288 A: 120784, S: 2744
+281893176 apps.monero.diag DEBUG Log trace 22, ... F: 42560 A: 120512, S: 2512
+282106176 apps.monero.diag DEBUG Log trace 23, ... F: 42560 A: 120512, S: 2512
+288595176 apps.monero.diag DEBUG Log trace 24, ... F: 42448 A: 120624, S: 2512
+295077176 apps.monero.diag DEBUG Log trace 25, ... F: 42448 A: 120624, S: 2512
+295110176 apps.monero.diag DEBUG Log trace 26, ... F: 42608 A: 120464, S: 2512
+295240176 apps.monero.diag DEBUG Log trace 27, ... F: 42640 A: 120432, S: 2512
+295368176 apps.monero.diag DEBUG Log trace 28, ... F: 46800 A: 116272, S: 2512
+298602176 apps.monero.diag DEBUG Log trace 30, ... F: 46640 A: 116432, S: 2512
+308318176 apps.monero.diag DEBUG Log trace 31, ... F: 42320 A: 120752, S: 2512
+308348176 apps.monero.diag DEBUG Log trace 31, ... F: 42384 A: 120688, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 1, nprime: 64
+308385176 apps.monero.diag DEBUG Log trace 22, ... F: 42496 A: 120576, S: 2512
+308520176 apps.monero.diag DEBUG Log trace 23, ... F: 42576 A: 120496, S: 2512
+310184176 apps.monero.diag DEBUG Log trace 24, ... F: 42480 A: 120592, S: 2512
+311842176 apps.monero.diag DEBUG Log trace 25, ... F: 42480 A: 120592, S: 2512
+311875176 apps.monero.diag DEBUG Log trace 26, ... F: 42640 A: 120432, S: 2512
+311962176 apps.monero.diag DEBUG Log trace 27, ... F: 42688 A: 120384, S: 2512
+312048176 apps.monero.diag DEBUG Log trace 28, ... F: 44784 A: 118288, S: 2512
+313678176 apps.monero.diag DEBUG Log trace 30, ... F: 46864 A: 116208, S: 2512
+315308176 apps.monero.diag DEBUG Log trace 31, ... F: 48944 A: 114128, S: 2512
+315338176 apps.monero.diag DEBUG Log trace 31, ... F: 51088 A: 111984, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 2, nprime: 32
+315375176 apps.monero.diag DEBUG Log trace 22, ... F: 50848 A: 112224, S: 2512
+315471176 apps.monero.diag DEBUG Log trace 23, ... F: 50944 A: 112128, S: 2512
+316351176 apps.monero.diag DEBUG Log trace 24, ... F: 50848 A: 112224, S: 2512
+317229176 apps.monero.diag DEBUG Log trace 25, ... F: 50848 A: 112224, S: 2512
+317262176 apps.monero.diag DEBUG Log trace 26, ... F: 51008 A: 112064, S: 2512
+317339176 apps.monero.diag DEBUG Log trace 27, ... F: 49968 A: 113104, S: 2512
+317416176 apps.monero.diag DEBUG Log trace 28, ... F: 51024 A: 112048, S: 2512
+318253176 apps.monero.diag DEBUG Log trace 30, ... F: 52080 A: 110992, S: 2512
+319089176 apps.monero.diag DEBUG Log trace 31, ... F: 53136 A: 109936, S: 2512
+319119176 apps.monero.diag DEBUG Log trace 31, ... F: 55328 A: 107744, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 3, nprime: 16
+319155176 apps.monero.diag DEBUG Log trace 22, ... F: 55072 A: 108000, S: 2512
+319230176 apps.monero.diag DEBUG Log trace 23, ... F: 55200 A: 107872, S: 2512
+319717176 apps.monero.diag DEBUG Log trace 24, ... F: 55104 A: 107968, S: 2512
+320203176 apps.monero.diag DEBUG Log trace 25, ... F: 55104 A: 107968, S: 2512
+320235176 apps.monero.diag DEBUG Log trace 26, ... F: 55264 A: 107808, S: 2512
+320300176 apps.monero.diag DEBUG Log trace 27, ... F: 54736 A: 108336, S: 2512
+320366176 apps.monero.diag DEBUG Log trace 28, ... F: 55248 A: 107824, S: 2512
+320822176 apps.monero.diag DEBUG Log trace 30, ... F: 55760 A: 107312, S: 2512
+321277176 apps.monero.diag DEBUG Log trace 31, ... F: 56272 A: 106800, S: 2512
+321306176 apps.monero.diag DEBUG Log trace 31, ... F: 57408 A: 105664, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 4, nprime: 8
+321342176 apps.monero.diag DEBUG Log trace 22, ... F: 57120 A: 105952, S: 2512
+321408176 apps.monero.diag DEBUG Log trace 23, ... F: 57216 A: 105856, S: 2512
+321700176 apps.monero.diag DEBUG Log trace 24, ... F: 57120 A: 105952, S: 2512
+321993176 apps.monero.diag DEBUG Log trace 25, ... F: 57120 A: 105952, S: 2512
+322025176 apps.monero.diag DEBUG Log trace 26, ... F: 57280 A: 105792, S: 2512
+322085176 apps.monero.diag DEBUG Log trace 27, ... F: 57008 A: 106064, S: 2512
+322145176 apps.monero.diag DEBUG Log trace 28, ... F: 57264 A: 105808, S: 2512
+322397176 apps.monero.diag DEBUG Log trace 30, ... F: 57520 A: 105552, S: 2512
+322649176 apps.monero.diag DEBUG Log trace 31, ... F: 57776 A: 105296, S: 2512
+322679176 apps.monero.diag DEBUG Log trace 31, ... F: 58400 A: 104672, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 5, nprime: 4
+322714176 apps.monero.diag DEBUG Log trace 22, ... F: 58144 A: 104928, S: 2512
+322780176 apps.monero.diag DEBUG Log trace 23, ... F: 58240 A: 104832, S: 2512
+322974176 apps.monero.diag DEBUG Log trace 24, ... F: 58144 A: 104928, S: 2512
+323169176 apps.monero.diag DEBUG Log trace 25, ... F: 58144 A: 104928, S: 2512
+323201176 apps.monero.diag DEBUG Log trace 26, ... F: 58304 A: 104768, S: 2512
+323258176 apps.monero.diag DEBUG Log trace 27, ... F: 58160 A: 104912, S: 2512
+323315176 apps.monero.diag DEBUG Log trace 28, ... F: 58288 A: 104784, S: 2512
+323468176 apps.monero.diag DEBUG Log trace 30, ... F: 58416 A: 104656, S: 2512
+323621176 apps.monero.diag DEBUG Log trace 31, ... F: 58544 A: 104528, S: 2512
+323650176 apps.monero.diag DEBUG Log trace 31, ... F: 58912 A: 104160, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 6, nprime: 2
+323686176 apps.monero.diag DEBUG Log trace 22, ... F: 58656 A: 104416, S: 2512
+323745176 apps.monero.diag DEBUG Log trace 23, ... F: 58784 A: 104288, S: 2512
+323890176 apps.monero.diag DEBUG Log trace 24, ... F: 58688 A: 104384, S: 2512
+324037176 apps.monero.diag DEBUG Log trace 25, ... F: 58688 A: 104384, S: 2512
+324069176 apps.monero.diag DEBUG Log trace 26, ... F: 58848 A: 104224, S: 2512
+324124176 apps.monero.diag DEBUG Log trace 27, ... F: 58768 A: 104304, S: 2512
+324182176 apps.monero.diag DEBUG Log trace 28, ... F: 58832 A: 104240, S: 2512
+324292176 apps.monero.diag DEBUG Log trace 30, ... F: 58896 A: 104176, S: 2512
+324396176 apps.monero.diag DEBUG Log trace 31, ... F: 58960 A: 104112, S: 2512
+324425176 apps.monero.diag DEBUG Log trace 31, ... F: 59200 A: 103872, S: 2336
+_phase2_loop_body, state: 20, off: 0
+wloop: M: 4, r: 7, nprime: 1
+324462176 apps.monero.diag DEBUG Log trace 22, ... F: 58912 A: 104160, S: 2512
+324520176 apps.monero.diag DEBUG Log trace 23, ... F: 59008 A: 104064, S: 2512
+324641176 apps.monero.diag DEBUG Log trace 24, ... F: 58912 A: 104160, S: 2512
+324763176 apps.monero.diag DEBUG Log trace 25, ... F: 58912 A: 104160, S: 2512
+324795176 apps.monero.diag DEBUG Log trace 26, ... F: 59072 A: 104000, S: 2512
+324850176 apps.monero.diag DEBUG Log trace 27, ... F: 59024 A: 104048, S: 2512
+324905176 apps.monero.diag DEBUG Log trace 28, ... F: 59056 A: 104016, S: 2512
+324985176 apps.monero.diag DEBUG Log trace 30, ... F: 59088 A: 103984, S: 2512
+325069176 apps.monero.diag DEBUG Log trace 31, ... F: 59120 A: 103952, S: 2512
+325098176 apps.monero.diag DEBUG Log trace 31, ... F: 59296 A: 103776, S: 2336
+325204176 apps.monero.diag DEBUG ======= 4 BP post prove Diff: 7920 Free: 56944 Allocated: 106128
+stack: 1464 out of 15360
+GC: total: 163072, used: 106768, free: 56304
+No. of 1-blocks: 2066, 2-blocks: 396, max blk sz: 112, max free sz: 2857
+325546176 apps.monero.diag DEBUG Log trace 61, ... F: 53872 A: 109200, S: 2208
+325591176 apps.monero.diag DEBUG Log trace 62, ... F: 54144 A: 108928, S: 2208
+325622176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325653176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325684176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325716176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325747176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325778176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325810176 apps.monero.diag DEBUG Log trace 62, ... F: 54128 A: 108944, S: 2208
+325908176 apps.monero.diag DEBUG Log trace 62, ... F: 53792 A: 109280, S: 2208
+326997176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+328087176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+329182176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+330270176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+331359176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+332448176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+333538176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+334627176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+335716176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+336805176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+337894176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+338983176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+340072176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+341160176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+342249176 apps.monero.diag DEBUG Log trace 62, ... F: 53808 A: 109264, S: 2208
+343272176 apps.monero.diag DEBUG Log trace 63, ... F: 53808 A: 109264, S: 2208
+343752176 apps.monero.diag DEBUG ======= 5 BP post verify Diff: -32 Free: 56976 Allocated: 106096
+stack: 1464 out of 15360
+GC: total: 163072, used: 106736, free: 56336
+No. of 1-blocks: 2064, 2-blocks: 396, max blk sz: 112, max free sz: 2857
+343782176 trezor.workflow DEBUG close: <generator object 'diag' at 20019360>
+343792176 trezor.workflow DEBUG default already started
+343803176 trezor.wire DEBUG 0:0 write: <DebugMoneroDiagAck>
